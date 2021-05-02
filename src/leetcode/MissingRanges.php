@@ -14,7 +14,7 @@ class MissingRanges
         }
         foreach ($nums as $num) {
             if ($num > $lower) {
-                $ans[] = $lower.($num - 1 > $lower ? ('->'.($num - 1)) : '');
+                $ans[] = $lower . ($num - 1 > $lower ? ('->' . ($num - 1)) : '');
             }
             if ($num === $upper) {
                 return $ans;
@@ -22,7 +22,7 @@ class MissingRanges
             $lower = $num + 1;
         }
         if ($lower <= $upper) {
-            $ans[] = $lower.($upper > $lower ? ('->'.$upper) : '');
+            $ans[] = $lower . ($upper > $lower ? ('->' . $upper) : '');
         }
 
         return $ans;

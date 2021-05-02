@@ -23,7 +23,7 @@ class SummaryRanges
                 $i++;
             }
             if ($tmp !== $nums[$i]) {
-                $ans[] = $tmp.'->'.$nums[$i];
+                $ans[] = $tmp . '->' . $nums[$i];
             } else {
                 $ans[] = (string) $tmp;
             }

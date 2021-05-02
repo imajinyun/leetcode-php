@@ -7,7 +7,7 @@ namespace leetcode\tests;
 use leetcode\DegreeOfAnArray;
 use PHPUnit\Framework\TestCase;
 
-class DegreeOfAnArrayTest extends TestCase
+class DegreeOfAnArray extends TestCase
 {
     public function testFindShortestSubArray(): void
     {
