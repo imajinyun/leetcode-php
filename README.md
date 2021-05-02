@@ -1,5 +1,7 @@
 # LeetCode for PHP
 
+[![StyleCI](https://github.styleci.io/repos/363634864/shield?branch=master)](https://github.styleci.io/repos/363634864?branch=master)
+
 # Requirements
 
 * PHP >= 7.4.0
