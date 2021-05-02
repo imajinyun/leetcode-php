@@ -24,9 +24,9 @@ class DivisorGame
         $dp = array_fill(0, $n + 1, false);
         $dp[1] = false;
         $dp[2] = true;
-        for ($i = 3; $i <= $n; ++$i) {
-            for ($j = 1; $j < $i; ++$j) {
-                if ($i % $j === 0 && ! $dp[$i - $j]) {
+        for ($i = 3; $i <= $n; $i++) {
+            for ($j = 1; $j < $i; $j++) {
+                if ($i % $j === 0 && !$dp[$i - $j]) {
                     $dp[$i] = true;
                     break;
                 }

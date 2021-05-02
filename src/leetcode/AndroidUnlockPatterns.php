@@ -59,16 +59,16 @@ class AndroidUnlockPatterns
         int $ans
     ) {
         if ($len >= $m) {
-            ++$ans;
+            $ans++;
         }
-        ++$len;
+        $len++;
         if ($len > $n) {
             return $ans;
         }
         $visited[$curr] = true;
         for ($next = 1; $next < 10; $next++) {
             $jump = $jumps[$curr][$next];
-            if (! $visited[$next] && ($jump === 0 || $visited[$jump])) {
+            if (!$visited[$next] && ($jump === 0 || $visited[$jump])) {
                 $ans = self::dfs($next, $len, $m, $n, $jumps, $visited, $ans);
             }
         }
@@ -90,7 +90,7 @@ class AndroidUnlockPatterns
         $visited[$curr] = true;
         for ($next = 1; $next < 10; $next++) {
             $jump = $jumps[$curr][$next];
-            if (! $visited[$next] && ($jump === 0 || $visited[$jump])) {
+            if (!$visited[$next] && ($jump === 0 || $visited[$jump])) {
                 $ans += self::dfs2($next, $jumps, $visited, $remain - 1);
             }
         }

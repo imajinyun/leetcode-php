@@ -18,7 +18,7 @@ class Trie
         $node = $this->root;
         for ($i = 0, $n = strlen($word); $i < $n; $i++) {
             $value = $word[$i];
-            if (! isset($node->children[$value])) {
+            if (!isset($node->children[$value])) {
                 $node->children[$value] = new TrieNode($value);
             }
             $node = $node->children[$value];
@@ -31,7 +31,7 @@ class Trie
         $node = $this->root;
         for ($i = 0, $n = strlen($prefix); $i < $n; $i++) {
             $value = $prefix[$i];
-            if (! isset($node->children[$value])) {
+            if (!isset($node->children[$value])) {
                 return false;
             }
             $node = $node->children[$value];
@@ -45,7 +45,7 @@ class Trie
         $node = $this->root;
         for ($i = 0, $n = strlen($prefix); $i < $n; $i++) {
             $value = $prefix[$i];
-            if (! isset($node->children[$value])) {
+            if (!isset($node->children[$value])) {
                 return false;
             }
             $node = $node->children[$value];

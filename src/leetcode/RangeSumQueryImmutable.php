@@ -13,7 +13,7 @@ class RangeSumQueryImmutable
             return 0;
         }
         $ans = 0;
-        for ($i = $start; $i <= $end; ++$i) {
+        for ($i = $start; $i <= $end; $i++) {
             $ans += $nums[$i];
         }
 
@@ -28,7 +28,7 @@ class RangeSumQueryImmutable
         }
 
         $helper = static function (array $map) use ($n) {
-            for ($i = 1; $i < $n; ++$i) {
+            for ($i = 1; $i < $n; $i++) {
                 $map[$i] += $map[$i - 1];
             }
 

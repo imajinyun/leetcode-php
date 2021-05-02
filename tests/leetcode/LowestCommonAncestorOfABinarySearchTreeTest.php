@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\LowestCommonAncestorOfABinarySearchTree;
 use leetcode\util\TreeNode;
+use PHPUnit\Framework\TestCase;
 
 class LowestCommonAncestorOfABinarySearchTreeTest extends TestCase
 {

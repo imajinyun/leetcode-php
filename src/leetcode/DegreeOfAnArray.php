@@ -14,10 +14,10 @@ class DegreeOfAnArray
         $cnt = $map = [];
         $res = $degree = 0;
         foreach ($nums as $k => $v) {
-            if (! isset($map[$v])) {
+            if (!isset($map[$v])) {
                 $map[$v] = $k;
             }
-            if (! isset($cnt[$v])) {
+            if (!isset($cnt[$v])) {
                 $cnt[$v] = 0;
             }
             $cnt[$v]++;

@@ -14,7 +14,7 @@ class LongestPalindromicSubstring
         }
         $helper = static function (string $str) {
             $len = strlen($str);
-            for ($i = 0; $i < $len / 2; ++$i) {
+            for ($i = 0; $i < $len / 2; $i++) {
                 if ($str[$i] !== $str[$len - $i - 1]) {
                     return false;
                 }
@@ -23,8 +23,8 @@ class LongestPalindromicSubstring
             return true;
         };
         [$ans, $max] = ['', 0];
-        for ($i = 0; $i < $len; ++$i) {
-            for ($j = 1; $j <= $len; ++$j) {
+        for ($i = 0; $i < $len; $i++) {
+            for ($j = 1; $j <= $len; $j++) {
                 $tmp = substr($str, $i, $j);
                 if ($helper($tmp) && strlen($tmp) > $max) {
                     $ans = substr($str, $i, $j);
@@ -46,8 +46,8 @@ class LongestPalindromicSubstring
         $start = $length = 0;
         $helper = static function (string $str, int $left, int $right, int &$start, int &$length) {
             while ($left >= 0 && $right < strlen($str) && $str[$left] === $str[$right]) {
-                --$left;
-                ++$right;
+                $left--;
+                $right++;
             }
 
             if ($length < $right - $left - 1) {
@@ -55,7 +55,7 @@ class LongestPalindromicSubstring
                 $length = $right - $left - 1;
             }
         };
-        for ($i = 0; $i < $len; ++$i) {
+        for ($i = 0; $i < $len; $i++) {
             $helper($str, $i, $i, $start, $length);
             $helper($str, $i, $i + 1, $start, $length);
         }
@@ -71,8 +71,8 @@ class LongestPalindromicSubstring
         }
         [$origin, $reverse, $maxLen, $maxEnd] = [$str, strrev($str), 0, 0];
         $dp = array_fill(0, $len, array_fill(0, $len, 0));
-        for ($i = 0; $i < $len; ++$i) {
-            for ($j = 0; $j < $len; ++$j) {
+        for ($i = 0; $i < $len; $i++) {
+            for ($j = 0; $j < $len; $j++) {
                 if ($origin[$i] === $reverse[$j]) {
                     if ($i === 0 || $j === 0) {
                         $dp[$i][$j] = 1;

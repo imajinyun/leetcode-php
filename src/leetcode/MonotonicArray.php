@@ -16,6 +16,7 @@ class MonotonicArray
             $inc &= $arr[$i - 1] <= $arr[$i];
             $dec &= $arr[$i - 1] >= $arr[$i];
         }
+
         return $inc || $dec;
     }
 

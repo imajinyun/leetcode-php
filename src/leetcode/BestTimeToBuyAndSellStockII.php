@@ -47,7 +47,7 @@ class BestTimeToBuyAndSellStockII
             return 0;
         }
         $ans = [];
-        for ($i = $n - 2; $i >= 0; --$i) {
+        for ($i = $n - 2; $i >= 0; $i--) {
             $ans[] = max($prices[$i + 1] - $prices[$i], 0);
         }
 
@@ -61,7 +61,7 @@ class BestTimeToBuyAndSellStockII
             return 0;
         }
         $ans = 0;
-        for ($i = 1; $i < $n; ++$i) {
+        for ($i = 1; $i < $n; $i++) {
             $ans += max(0, $prices[$i] - $prices[$i - 1]);
         }
 

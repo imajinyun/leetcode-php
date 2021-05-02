@@ -3,7 +3,6 @@
 namespace leetcode;
 
 use PHPUnit\Framework\TestCase;
-use leetcode\Candy;
 
 class CandyTest extends TestCase
 {

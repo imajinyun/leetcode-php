@@ -17,7 +17,7 @@ class NQueensII
     private static function helper(array &$chessboard, int $row, int &$num): int
     {
         if ($row === $count = count($chessboard)) {
-            ++$num;
+            $num++;
         }
 
         for ($col = 0; $col < $count; $col++) {

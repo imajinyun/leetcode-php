@@ -27,7 +27,7 @@ class MaxConsecutiveOnes
         }
         [$max, $nums] = [0, preg_split('/0+/', join('', $nums))];
         foreach ($nums as $num) {
-            $max = max($max, strlen((string)$num));
+            $max = max($max, strlen((string) $num));
         }
 
         return $max;

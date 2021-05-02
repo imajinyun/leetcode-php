@@ -13,7 +13,7 @@ class SearchInsertPosition
         }
         [$low, $high] = [0, $n - 1];
         while ($low <= $high) {
-            $mid = (int)(($high + $low) / 2);
+            $mid = (int) (($high + $low) / 2);
             if ($target === $nums[$mid]) {
                 return $mid;
             } elseif ($target < $nums[$mid]) {

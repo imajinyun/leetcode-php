@@ -19,7 +19,7 @@ class Pow
         if ($n % 2 === 0) {
             $ans = self::myPow($x * $x, $n / 2);
         } else {
-            $ans = $x * self::myPow($x * $x, (int)($n / 2));
+            $ans = $x * self::myPow($x * $x, (int) ($n / 2));
         }
 
         return $ans;

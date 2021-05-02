@@ -27,6 +27,5 @@ class IntegerBreakTest extends TestCase
         self::assertSame(4, IntegerBreak::integerBreak2(4));
         self::assertSame(6, IntegerBreak::integerBreak(5));
         self::assertSame(36, IntegerBreak::integerBreak(10));
-
     }
 }

@@ -34,7 +34,7 @@ class SquaresOfASortedArray
         }
         $n = count($nums);
         [$ans, $l, $r] = [[], 0, $n - 1];
-        while ($l  <= $r) {
+        while ($l <= $r) {
             [$left, $right] = [abs($nums[$l]), abs($nums[$r])];
             if ($left > $right) {
                 $ans[] = pow($left, 2);

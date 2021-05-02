@@ -13,7 +13,8 @@ class SummaryRanges
             return $ans;
         }
         if ($n === 1) {
-            $ans[] = (string)$nums[0];
+            $ans[] = (string) $nums[0];
+
             return $ans;
         }
         for ($i = 0; $i < $n; $i++) {
@@ -24,7 +25,7 @@ class SummaryRanges
             if ($tmp !== $nums[$i]) {
                 $ans[] = $tmp.'->'.$nums[$i];
             } else {
-                $ans[] = (string)$tmp;
+                $ans[] = (string) $tmp;
             }
         }
 

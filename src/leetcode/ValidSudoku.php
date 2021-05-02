@@ -19,7 +19,7 @@ class ValidSudoku
         for ($i = 0; $i < $m; $i++) {
             for ($j = 0; $j < $n; $j++) {
                 if ('.' !== $v = $board[$i][$j]) {
-                    [$v, $k] = [(int)$v, (int)(floor($i / 3) * 3 + floor($j / 3))];
+                    [$v, $k] = [(int) $v, (int) (floor($i / 3) * 3 + floor($j / 3))];
                     $helper($row, $i, $v);
                     $helper($col, $j, $v);
                     $helper($box, $k, $v);

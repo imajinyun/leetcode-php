@@ -47,7 +47,7 @@ class CountNumbersWithUniqueDigits
         }
         $count = 0;
         for ($i = $index ? 0 : 1; $i < 10; $i++) {
-            if (! $visited[$i]) {
+            if (!$visited[$i]) {
                 $visited[$i] = true;
                 $count += self::dfs($target, $index + 1, $visited);
                 $visited[$i] = false;
@@ -55,6 +55,5 @@ class CountNumbersWithUniqueDigits
         }
 
         return $count;
-
     }
 }

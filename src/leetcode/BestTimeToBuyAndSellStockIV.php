@@ -28,7 +28,7 @@ class BestTimeToBuyAndSellStockIV
 
         $dp = array_fill(0, $n, array_fill(0, $n, [0, 0, 0]));
         foreach ($prices as $i => $price) {
-            for ($j = $k; $j > 0; --$j) {
+            for ($j = $k; $j > 0; $j--) {
                 if ($i - 1 < 0) {
                     $dp[$i][$j][0] = 0;
                     $dp[$i][$j][1] = -$price;
@@ -50,7 +50,7 @@ class BestTimeToBuyAndSellStockIV
         }
         $helper = static function () use ($prices) {
             [$n, $maxProfit] = [count($prices), 0];
-            for ($i = 1; $i < $n; ++$i) {
+            for ($i = 1; $i < $n; $i++) {
                 if ($prices[$i] > $prices[$i - 1]) {
                     $maxProfit += max(0, $prices[$i] - $prices[$i - 1]);
                 }

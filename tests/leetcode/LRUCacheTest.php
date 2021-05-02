@@ -45,7 +45,7 @@ class LRUCacheTest extends TestCase
 
         self::assertNull($cache->get(4));
 
-        self::assertSame('hello world!', $cache->get(5) . ' ' . $cache->get(6) . $cache->get(7));
+        self::assertSame('hello world!', $cache->get(5).' '.$cache->get(6).$cache->get(7));
 
         self::assertTrue($cache->remove(5));
         self::assertTrue($cache->remove(6));

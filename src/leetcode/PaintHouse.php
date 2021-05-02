@@ -13,8 +13,8 @@ class PaintHouse
             return 0;
         }
         $dp = $costs;
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 0; $j < 3; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 0; $j < 3; $j++) {
                 $dp[$i][$j] += min($dp[$i - 1][($j + 1) % 3], $dp[$i - 1][($j + 2) % 3]);
             }
         }
@@ -29,7 +29,7 @@ class PaintHouse
             return 0;
         }
         $dp = $costs;
-        for ($i = 1; $i < $m; ++$i) {
+        for ($i = 1; $i < $m; $i++) {
             $dp[$i][0] += min($dp[$i - 1][1], $dp[$i - 1][2]);
             $dp[$i][1] += min($dp[$i - 1][0], $dp[$i - 1][2]);
             $dp[$i][2] += min($dp[$i - 1][0], $dp[$i - 1][1]);

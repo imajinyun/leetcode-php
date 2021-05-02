@@ -13,12 +13,12 @@ class ReverseInteger
 
         while ($num !== 0) {
             $ans = $ans * 10 + $num % 10;
-            $num = (int)($num / 10);
+            $num = (int) ($num / 10);
             if ($ans < $min || $ans > $max) {
                 return 0;
             }
         }
 
-        return (int)$ans;
+        return (int) $ans;
     }
 }

@@ -11,7 +11,7 @@ class FindPivotIndex
         if (empty($nums)) {
             return 0;
         }
-        [$left, $right]= [0, array_sum($nums)];
+        [$left, $right] = [0, array_sum($nums)];
         foreach ($nums as $key => $num) {
             $right -= $num;
             if ($left === $right) {

@@ -16,7 +16,7 @@ class ClimbingStairs
         }
 
         $dp = [1 => 1, 2 => 2];
-        for ($i = 3; $i <= $n; ++$i) {
+        for ($i = 3; $i <= $n; $i++) {
             $dp[$i] = $dp[$i - 1] + $dp[$i - 2];
         }
 
@@ -32,7 +32,7 @@ class ClimbingStairs
             return $n;
         }
         [$prev, $curr] = [1, 1];
-        for ($i = 2; $i < $n + 1; ++$i) {
+        for ($i = 2; $i < $n + 1; $i++) {
             $temp = $curr;
             $curr = $prev + $curr;
             $prev = $temp;

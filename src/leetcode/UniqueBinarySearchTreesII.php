@@ -23,7 +23,7 @@ class UniqueBinarySearchTreesII
         if ($start > $end) {
             $ans[] = null;
         }
-        for ($i = $start; $i <= $end; ++$i) {
+        for ($i = $start; $i <= $end; $i++) {
             $lefts = self::helper($start, $i - 1);
             $rights = self::helper($i + 1, $end);
             foreach ($lefts as $left) {

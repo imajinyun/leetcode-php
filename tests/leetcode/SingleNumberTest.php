@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\SingleNumber;
+use PHPUnit\Framework\TestCase;
 
 class SingleNumberTest extends TestCase
 {

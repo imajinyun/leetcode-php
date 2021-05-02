@@ -14,7 +14,7 @@ class BestTimeToBuyAndSellStockIII
         }
         $dp = array_fill(0, $n, array_fill(0, $k, [0, 0, 0]));
         foreach ($prices as $i => $price) {
-            for ($j = 1; $j < $k; ++$j) {
+            for ($j = 1; $j < $k; $j++) {
                 if ($i - 1 < 0) {
                     $dp[$i][$j][0] = 0;
                     $dp[$i][$j][1] = -$price;
@@ -53,17 +53,17 @@ class BestTimeToBuyAndSellStockIII
         }
         [$x, $y] = [array_pad([], $n, 0), array_pad([], $n, 0)];
 
-        for ($i = 1, $min = $prices[0]; $i < $n; ++$i) {
+        for ($i = 1, $min = $prices[0]; $i < $n; $i++) {
             $min = min($min, $prices[$i]);
             $x[$i] = max($x[$i - 1], $prices[$i] - $min);
         }
 
-        for ($i = $n - 2, $max = $prices[$n - 1]; $i > 0; --$i) {
+        for ($i = $n - 2, $max = $prices[$n - 1]; $i > 0; $i--) {
             $max = max($max, $prices[$i]);
             $y[$i] = max($y[$i + 1], $max - $prices[$i]);
         }
 
-        for ($i = 0; $i < $n; ++$i) {
+        for ($i = 0; $i < $n; $i++) {
             $ans = max($ans, $x[$i] + $y[$i]);
         }
 

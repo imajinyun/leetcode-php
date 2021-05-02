@@ -16,7 +16,7 @@ class SqrtX
         }
         [$ans, $left, $right] = [0, 1, $x];
         while ($left <= $right) {
-            $middle = $left + (int)floor(($right - $left) / 2);
+            $middle = $left + (int) floor(($right - $left) / 2);
             if ($middle > $x / $middle) {
                 $right = $middle - 1;
             } elseif ($middle < $x / $middle) {

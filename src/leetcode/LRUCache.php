@@ -32,7 +32,7 @@ class LRUCache
 
     public function get(int $key)
     {
-        if (! isset($this->map[$key])) {
+        if (!isset($this->map[$key])) {
             return null;
         }
 
@@ -54,7 +54,7 @@ class LRUCache
             return false;
         }
 
-        if (isset($this->map[$key]) && ! empty($this->map[$key])) {
+        if (isset($this->map[$key]) && !empty($this->map[$key])) {
             /** @var \leetcode\util\LRUNode $node */
             $node = $this->map[$key];
             $this->detach($node);
@@ -77,7 +77,7 @@ class LRUCache
 
     public function remove(int $key): bool
     {
-        if (! isset($this->map[$key])) {
+        if (!isset($this->map[$key])) {
             return false;
         }
 

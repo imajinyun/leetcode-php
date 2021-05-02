@@ -28,16 +28,16 @@ class WordBreak
             return true;
         }
         if (isset($memo[$start]) && $memo[$start] !== -1) {
-            return (bool)$memo[$start];
+            return (bool) $memo[$start];
         }
-        for ($i = $start; $i <= $n; ++$i) {
+        for ($i = $start; $i <= $n; $i++) {
             $key = substr($s, $start, $i - $start);
             if (isset($dicts[$key]) && self::helper($s, $dicts, $i, $memo)) {
-                return (bool)($memo[$start] = 1);
+                return (bool) ($memo[$start] = 1);
             }
         }
 
-        return (bool)($memo[$start] = 0);
+        return (bool) ($memo[$start] = 0);
     }
 
     public static function wordBreak2(string $s, array $words)
@@ -73,7 +73,7 @@ class WordBreak
         while ($queue) {
             $start = $queue[0];
             array_pop($queue);
-            if (! $visited[$start]) {
+            if (!$visited[$start]) {
                 for ($i = $start + 1; $i <= $n; $i++) {
                     $key = substr($s, $start, $i - $start);
                     if (isset($dicts[$key])) {

@@ -61,6 +61,6 @@ class MissingRanges
 
     private static function getRange(int $a, int $b): string
     {
-        return $a === $b ? (string)$a : sprintf('%d->%d', $a, $b);
+        return $a === $b ? (string) $a : sprintf('%d->%d', $a, $b);
     }
 }

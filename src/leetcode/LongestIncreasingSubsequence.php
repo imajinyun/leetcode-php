@@ -40,7 +40,7 @@ class LongestIncreasingSubsequence
             } else {
                 [$left, $right] = [0, count($ans)];
                 while ($left < $right) {
-                    $middle = $left + (int)(($right - $left) / 2);
+                    $middle = $left + (int) (($right - $left) / 2);
                     if ($ans[$middle] < $num) {
                         $left = $middle + 1;
                     } else {
@@ -64,7 +64,7 @@ class LongestIncreasingSubsequence
         foreach ($nums as $x) {
             [$i, $j] = [0, $size];
             while ($i !== $j) {
-                $m = (int)(($i + $j) / 2);
+                $m = (int) (($i + $j) / 2);
                 if ($tails[$m] < $x) {
                     $i = $m + 1;
                 } else {
@@ -73,7 +73,7 @@ class LongestIncreasingSubsequence
             }
             $tails[$i] = $x;
             if ($i === $size) {
-                ++$size;
+                $size++;
             }
         }
 

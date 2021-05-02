@@ -14,7 +14,7 @@ class MinCostToConnectAllPointsTest extends TestCase
         self::assertSame(
             20,
             MinCostToConnectAllPoints::minCostConnectPoints([
-                [0, 0], [2, 2], [3, 10], [5, 2], [7, 0]
+                [0, 0], [2, 2], [3, 10], [5, 2], [7, 0],
             ])
         );
         self::assertSame(18, [[3, 12], [-2, 5], [-4, 1]]);

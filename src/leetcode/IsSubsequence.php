@@ -31,15 +31,15 @@ class IsSubsequence
 
         $dp = array_fill(0, $m + 1, array_fill(0, $n + 1, false));
         $dp[0][0] = true;
-        for ($i = 1; $i <= $m; ++$i) {
+        for ($i = 1; $i <= $m; $i++) {
             $dp[$i][0] = false;
         }
-        for ($j = 1; $j <= $n; ++$j) {
+        for ($j = 1; $j <= $n; $j++) {
             $dp[0][$j] = true;
         }
 
-        for ($i = 1; $i <= $m; ++$i) {
-            for ($j = 1; $j <= $n; ++$j) {
+        for ($i = 1; $i <= $m; $i++) {
+            for ($j = 1; $j <= $n; $j++) {
                 if ($s[$i - 1] === $t[$j - 1]) {
                     $dp[$i][$j] = $dp[$i - 1][$j - 1];
                 } else {

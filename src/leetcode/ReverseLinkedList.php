@@ -11,7 +11,7 @@ class ReverseLinkedList
     public static function reverseList(ListNode $head): ListNode
     {
         $node = new ListNode();
-        if (! $head) {
+        if (!$head) {
             return $node;
         }
         while ($head) {

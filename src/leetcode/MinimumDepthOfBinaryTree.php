@@ -10,7 +10,7 @@ class MinimumDepthOfBinaryTree
 {
     public static function minDepth(TreeNode $root = null): int
     {
-        if (! $root) {
+        if (!$root) {
             return 0;
         }
         $left = self::minDepth($root->left);

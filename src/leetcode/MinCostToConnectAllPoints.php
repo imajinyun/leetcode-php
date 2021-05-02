@@ -20,7 +20,7 @@ class MinCostToConnectAllPoints
         while (++$connected < $m) {
             $visited[$i] = true;
             for ($j = 0; $j < $m; $j++) {
-                if (! $visited[$j]) {
+                if (!$visited[$j]) {
                     $spq->insert([-abs($points[$i][0] - $points[$j][0]) + abs($points[$i][1] - $points[$j][1])], $j);
                 }
             }

@@ -18,6 +18,7 @@ class GenerateParentheses
     {
         if ($left === 0 && $right === 0) {
             $ans[] = $s;
+
             return;
         }
 

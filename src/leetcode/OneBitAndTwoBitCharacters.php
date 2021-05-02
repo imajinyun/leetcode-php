@@ -21,14 +21,13 @@ class OneBitAndTwoBitCharacters
     public static function isOneBitCharacter2(array $bits): bool
     {
         if (empty($bits)) {
-    return false;
-}
+            return false;
+        }
         [$i, $n] = [0, count($bits)];
         while ($i < $n - 1) {
             $i += $bits[$i] === 0 ? 1 : 2;
         }
 
         return $i === $n - 1;
-
     }
 }

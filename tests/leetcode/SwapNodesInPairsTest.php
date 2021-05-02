@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\SwapNodesInPairs;
 use leetcode\util\ListNode;
+use PHPUnit\Framework\TestCase;
 
 class SwapNodesInPairsTest extends TestCase
 {

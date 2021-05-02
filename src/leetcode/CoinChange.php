@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace leetcode;
 
-use SplFixedArray;
-
 class CoinChange
 {
     public static function coinChange(array $coins, int $amount): int
@@ -15,8 +13,8 @@ class CoinChange
             return 0;
         }
         [$dp, $dp[0]] = [array_fill(0, $m, $m), 0];
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 0; $j < $n; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 0; $j < $n; $j++) {
                 $coin = $coins[$j];
                 if ($coin <= $i) {
                     $dp[$i] = min($dp[$i], $dp[$i - $coin] + 1);
@@ -34,7 +32,7 @@ class CoinChange
             return 0;
         }
         [$dp, $max] = [array_fill(0, $m, 0), PHP_INT_MAX];
-        for ($i = 1; $i < $m; ++$i) {
+        for ($i = 1; $i < $m; $i++) {
             $dp[$i] = $max;
             foreach ($coins as $coin) {
                 if ($coin <= $i && $dp[$i - $coin] !== $max) {

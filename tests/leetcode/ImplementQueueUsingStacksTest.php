@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\ImplementQueueUsingStacks;
+use PHPUnit\Framework\TestCase;
 
 class ImplementQueueUsingStacksTest extends TestCase
 {
