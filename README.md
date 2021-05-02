@@ -41,9 +41,9 @@ phpunit -vvv
 
 |题目|来源|实现|
 |---|---|---|
-|`0001. 两数之和`|[Two Sum](https://leetcode.com/problems/two-sum/)||
-|`0118. 杨辉三角`|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)||
-|`0026. 删除有序数组中的重复项`|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)||
+|`0001. 两数之和`|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TwoSum.php)|
+|`0118. 杨辉三角`|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PascalsTriangle.php)|
+|`0026. 删除有序数组中的重复项`|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RemoveDuplicatesFromSortedArray.php)|
 |`0027. 移除元素`|[Remove Element](https://leetcode.com/problems/remove-element/)||
 |`0035. 搜索插入位置`|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)||
 |`0053. 最大子序和`|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)||
