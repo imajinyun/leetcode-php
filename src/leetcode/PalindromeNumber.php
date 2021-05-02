@@ -14,7 +14,7 @@ class PalindromeNumber
         if ($num === 0) {
             return true;
         }
-        $res = (int)strrev((string)$num);
+        $res = (int) strrev((string) $num);
 
         return $num === $res;
     }
@@ -30,7 +30,7 @@ class PalindromeNumber
         [$ans, $res] = [$num, 0];
         while ($num !== 0) {
             $res = $res * 10 + $num % 10;
-            $num = (int)($num / 10);
+            $num = (int) ($num / 10);
         }
 
         return $ans === $res;

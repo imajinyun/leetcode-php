@@ -24,7 +24,7 @@ class ImplementQueueUsingStacks2
     public function peek(): ?int
     {
         if (empty($this->stack)) {
-            while (! empty($this->cache)) {
+            while (!empty($this->cache)) {
                 $this->stack[] = array_shift($this->cache);
             }
         }

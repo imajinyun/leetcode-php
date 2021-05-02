@@ -15,11 +15,11 @@ class ImplementQueueUsingStacks
         if (empty($this->stack)) {
             $this->front = $value;
         }
-        while (! empty($this->stack)) {
+        while (!empty($this->stack)) {
             $this->cache[] = array_shift($this->stack);
         }
         $this->cache[] = $value;
-        while (! empty($this->cache)) {
+        while (!empty($this->cache)) {
             $this->stack[] = array_shift($this->cache);
         }
     }
@@ -27,7 +27,7 @@ class ImplementQueueUsingStacks
     public function pop(): ?int
     {
         $value = array_shift($this->stack);
-        if (! empty($this->stack)) {
+        if (!empty($this->stack)) {
             $this->front = current($this->stack);
         }
 

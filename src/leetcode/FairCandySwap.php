@@ -12,7 +12,7 @@ class FairCandySwap
             return [];
         }
         [$aSum, $bSum] = [array_sum($a), array_sum($b)];
-        $dif = (int)(($aSum - $bSum) / 2);
+        $dif = (int) (($aSum - $bSum) / 2);
         for ($i = 0, $m = count($a); $i < $m; $i++) {
             for ($j = 0, $n = count($b); $j < $n; $j++) {
                 if ($a[$i] - $b[$j] === $dif) {
@@ -29,9 +29,9 @@ class FairCandySwap
         if (empty($a) || empty($b)) {
             return [];
         }
-        [$map, $dif] = [[], (int)((array_sum($a) - array_sum($b)) / 2)];
+        [$map, $dif] = [[], (int) ((array_sum($a) - array_sum($b)) / 2)];
         foreach ($a as $v) {
-            if (! isset($map[$v])) {
+            if (!isset($map[$v])) {
                 $map[$v] = $v;
             }
         }

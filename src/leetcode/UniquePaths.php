@@ -12,8 +12,8 @@ class UniquePaths
             return 0;
         }
         $dp = array_fill(0, $m, array_fill(0, $n, 1));
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 1; $j < $n; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 1; $j < $n; $j++) {
                 $dp[$i][$j] = $dp[$i - 1][$j] + $dp[$i][$j - 1];
             }
         }
@@ -27,8 +27,8 @@ class UniquePaths
             return 0;
         }
         $prev = $curr = array_fill(0, $n, 1);
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 1; $j < $n; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 1; $j < $n; $j++) {
                 $curr[$j] = $prev[$j] + $curr[$j - 1];
             }
             $temp = $prev;
@@ -45,8 +45,8 @@ class UniquePaths
             return 0;
         }
         $dp = array_fill(0, $n, 1);
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 1; $j < $n; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 1; $j < $n; $j++) {
                 $dp[$j] += $dp[$j - 1];
             }
         }

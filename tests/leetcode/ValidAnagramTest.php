@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\ValidAnagram;
+use PHPUnit\Framework\TestCase;
 
 class ValidAnagramTest extends TestCase
 {
@@ -29,6 +29,5 @@ class ValidAnagramTest extends TestCase
         $actual = ValidAnagram::isAnagram2('rat', 'car');
         self::assertIsBool($actual);
         self::assertFalse($actual);
-
     }
 }

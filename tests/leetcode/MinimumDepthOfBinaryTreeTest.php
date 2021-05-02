@@ -4,16 +4,15 @@ declare(strict_types=1);
 
 namespace leetcode;
 
-use PHPUnit\Framework\TestCase;
-use leetcode\MinimumDepthOfBinaryTree;
 use leetcode\util\TreeNode;
+use PHPUnit\Framework\TestCase;
 
 class MinimumDepthOfBinaryTreeTest extends TestCase
 {
     public function testMinDepth(): void
     {
         /**
-         * [3, 9, 20, null, null, 15, 7]
+         * [3, 9, 20, null, null, 15, 7].
          *
          *   3
          * 9     20
@@ -29,7 +28,7 @@ class MinimumDepthOfBinaryTreeTest extends TestCase
         self::assertSame(2, MinimumDepthOfBinaryTree::minDepth($r1));
 
         /**
-         * [2, null, 3, null, 4, null, 5, null, 6]
+         * [2, null, 3, null, 4, null, 5, null, 6].
          *
          * 2
          *   3

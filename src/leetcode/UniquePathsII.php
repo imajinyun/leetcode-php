@@ -14,8 +14,8 @@ class UniquePathsII
         }
         $dp = array_fill(0, $m, array_fill(0, $n, 0));
         $dp[0][1] = 1;
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 1; $j < $n; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 1; $j < $n; $j++) {
                 $dp[$i][$j] = $dp[$i - 1][$j] + $dp[$i][$j - 1];
             }
         }
@@ -32,7 +32,7 @@ class UniquePathsII
         $dp = array_fill(0, $n, 0);
         $dp[0] = 1;
         foreach ($grids as $grid) {
-            for ($j = 1; $j < $n; ++$j) {
+            for ($j = 1; $j < $n; $j++) {
                 if ($grid[$j] === 1) {
                     $dp[$j] = 0;
                 } else {

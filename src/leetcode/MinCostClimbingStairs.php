@@ -16,7 +16,7 @@ class MinCostClimbingStairs
         if ($n <= 2) {
             return min($prev, $next);
         }
-        for ($i = 2; $i < $n; ++$i) {
+        for ($i = 2; $i < $n; $i++) {
             $curr = $cost[$i] + min($prev, $next);
             $prev = $next;
             $next = $curr;

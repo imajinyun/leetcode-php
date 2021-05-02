@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class ReverseLinkedListTest extends TestCase
 {
-    /** @var \leetcode\util\ListNode $node */
+    /** @var \leetcode\util\ListNode */
     private $node;
 
     protected function setUp(): void

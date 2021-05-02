@@ -32,10 +32,11 @@ class MedianOfTwoSortedArrays
         }
         if (($cnt = count($res)) % 2 === 0) {
             $mid = $cnt / 2;
-            return (double)($res[$mid] + $res[$mid - 1]) / 2;
+
+            return (float) ($res[$mid] + $res[$mid - 1]) / 2;
         }
 
-        return (double)$res[$k / 2];
+        return (float) $res[$k / 2];
     }
 
     public static function findMedianSortedArrays2(array $num1, array $num2): float

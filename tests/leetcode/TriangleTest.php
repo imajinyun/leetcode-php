@@ -15,7 +15,7 @@ class TriangleTest extends TestCase
             [2],
             [3, 4],
             [6, 5, 7],
-            [4, 1, 8, 3]
+            [4, 1, 8, 3],
         ];
         self::assertSame(11, Triangle::minimumTotal($triangle));
     }
@@ -26,7 +26,7 @@ class TriangleTest extends TestCase
             [2],
             [3, 4],
             [6, 5, 7],
-            [4, 1, 8, 3]
+            [4, 1, 8, 3],
         ];
         self::assertSame(11, Triangle::minimumTotal2($triangle));
     }

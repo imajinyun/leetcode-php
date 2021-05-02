@@ -12,7 +12,7 @@ class ZigzagConversion
         if ($m <= 1 || $m >= $n) {
             return $str;
         }
-        [$s, $k] = ['', 2 * $m - 2] ;
+        [$s, $k] = ['', 2 * $m - 2];
         for ($i = 0; $i < $m; $i++) {
             for ($j = $i; $j < $n; $j += $k) {
                 $s .= $str[$j];

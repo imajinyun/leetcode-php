@@ -17,7 +17,7 @@ class ListNode
 
     public static function toArray(ListNode $node): array
     {
-        if (! $node) {
+        if (!$node) {
             return [];
         }
         $ans = [];

@@ -13,7 +13,7 @@ class RangeSumQuery2DImmutable
     {
         $this->matrix = $matrix;
         [$m, $n] = [count($matrix), is_array($matrix[0]) ? count($matrix[0]) : 0];
-        if (! $matrix || $m <= 0 || $n <= 0) {
+        if (!$matrix || $m <= 0 || $n <= 0) {
             return 0;
         }
         $this->dp = array_fill(0, $m + 1, array_fill(0, $n + 1, 0));

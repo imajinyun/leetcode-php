@@ -15,8 +15,8 @@ class DecodeWays
 
         $dp = array_fill(0, $n + 1, 0);
         [$dp[0], $dp[1]] = [1, 1];
-        for ($i = 2; $i <= $n; ++$i) {
-            [$p, $q] = [(int)$s[$i - 1], (int)$s[$i - 2]];
+        for ($i = 2; $i <= $n; $i++) {
+            [$p, $q] = [(int) $s[$i - 1], (int) $s[$i - 2]];
             $dp[$i] = $p === 0 ? 0 : $dp[$i - 1];
             if ($q === 1 || ($q === 2 && $p <= 6)) {
                 $dp[$i] += $dp[$i - 2];
@@ -42,7 +42,7 @@ class DecodeWays
 
         $dp = array_fill(0, $n + 1, 0);
         [$dp[0], $dp[1]] = [1, 1];
-        for ($i = 2; $i <= $n; ++$i) {
+        for ($i = 2; $i <= $n; $i++) {
             $p = $helper($s, $i - 1, $i);
             $q = $helper($s, $i - 2, $i);
             if ($p >= 1 && $p <= 9) {

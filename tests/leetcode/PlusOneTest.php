@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\PlusOne;
+use PHPUnit\Framework\TestCase;
 
 class PlusOneTest extends TestCase
 {

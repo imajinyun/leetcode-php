@@ -56,7 +56,7 @@ class TwoSumII
             [$left, $right] = [$i + 1, $n - 1];
             $tmp = $target - $nums[$i];
             while ($left <= $right) {
-                $mid = $left + (int)(($right - $left) / 2);
+                $mid = $left + (int) (($right - $left) / 2);
                 if ($nums[$mid] < $tmp) {
                     $left++;
                 } elseif ($nums[$mid] > $tmp) {

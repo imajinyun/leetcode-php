@@ -37,7 +37,7 @@ class RegularExpressionMatching
             }
         }
 
-        return (bool)$dp[$m - 1][$n - 1];
+        return (bool) $dp[$m - 1][$n - 1];
     }
 
     public static function isMatch2(string $s, string $p): bool
@@ -50,7 +50,7 @@ class RegularExpressionMatching
         $dp[0][0] = true; // since empty string matches empty pattern
         for ($j = 2; $j < $n; $j += 2) {
             if ($p[$j - 1] === '*' && $dp[0][$j - 2]) {
-               $dp[0][$j] = true;
+                $dp[0][$j] = true;
             }
         }
         for ($i = 1; $i < $m; $i++) {
@@ -68,6 +68,6 @@ class RegularExpressionMatching
             }
         }
 
-        return (bool)$dp[$m - 1][$n - 1];
+        return (bool) $dp[$m - 1][$n - 1];
     }
 }

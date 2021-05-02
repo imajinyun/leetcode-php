@@ -27,7 +27,7 @@ class MinimumWindowSubstring
                 }
             }
             while ($match === count($map)) {
-                if ($right- $left < $len) {
+                if ($right - $left < $len) {
                     $start = $left;
                     $len = $right - $left;
                 }

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\PalindromeNumber;
+use PHPUnit\Framework\TestCase;
 
 class PalindromeNumberTest extends TestCase
 {
@@ -32,7 +32,6 @@ class PalindromeNumberTest extends TestCase
             true,
             true,
         ];
-
     }
 
     public function testIsPalindrome(): void

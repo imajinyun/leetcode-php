@@ -37,7 +37,7 @@ class WordSearchII
         }
 
         $s .= $board[$i][$j];
-        if (! $trie->startsWith($s)) {
+        if (!$trie->startsWith($s)) {
             return $default;
         }
 

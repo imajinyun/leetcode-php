@@ -20,13 +20,13 @@ class UglyNumberII
             [$m2, $m3, $m5] = [$ans[$i2] * 2, $ans[$i3] * 3, $ans[$i5] * 5];
             $min = min($m2, min($m3, $m5));
             if ($min === $m2) {
-                ++$i2;
+                $i2++;
             }
             if ($min === $m3) {
-                ++$i3;
+                $i3++;
             }
             if ($min === $m5) {
-                ++$i5;
+                $i5++;
             }
             $ans[] = $min;
         }
@@ -47,7 +47,7 @@ class UglyNumberII
         for ($i = 1; $i < $n; $i++) {
             $value = $heap->top();
             $heap->extract();
-            while (! $heap->isEmpty() && $heap->top() === $value) {
+            while (!$heap->isEmpty() && $heap->top() === $value) {
                 $value = $heap->top();
                 $heap->extract();
             }

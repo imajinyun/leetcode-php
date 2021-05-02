@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace leetcode\tests;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\FlippingAnImage;
+use PHPUnit\Framework\TestCase;
 
 class FlippingAnImageTest extends TestCase
 {

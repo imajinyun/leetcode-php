@@ -25,7 +25,7 @@ class ImageSmoother
                     }
                 }
                 if ($cnt > 0) {
-                    $ans[$i][$j] = (int)floor($ans[$i][$j] / $cnt);
+                    $ans[$i][$j] = (int) floor($ans[$i][$j] / $cnt);
                 }
             }
         }
@@ -74,7 +74,7 @@ class ImageSmoother
                 if (isset($arr[$i + 1][$j + 1])) {
                     $tmp[] = $arr[$i + 1][$j + 1];
                 }
-                $tmp = (int)floor(array_sum($tmp) / count($tmp));
+                $tmp = (int) floor(array_sum($tmp) / count($tmp));
                 $res[$i][$j] = $tmp;
             }
         }

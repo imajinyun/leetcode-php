@@ -6,9 +6,9 @@ namespace leetcode\util;
 
 /**
  * @method \leetcode\util\LRUNode setKey(int $key)
- * @method int getKey()
+ * @method int                    getKey()
  * @method \leetcode\util\LRUNode setVal(int $val)
- * @method int|string getVal()
+ * @method int|string             getVal()
  * @method \leetcode\util\LRUNode setPrev(\leetcode\util\LRUNode $node)
  * @method \leetcode\util\LRUNode getPrev()
  * @method \leetcode\util\LRUNode setNext(\leetcode\util\LRUNode $node)
@@ -32,6 +32,7 @@ class LRUNode
         if (false !== $pos = strpos($name, 'set')) {
             $name = strtolower(substr($name, $pos + 3));
             $this->{$name} = $arguments[0];
+
             return $this;
         }
 

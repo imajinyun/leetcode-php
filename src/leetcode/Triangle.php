@@ -31,7 +31,7 @@ class Triangle
         }
 
         $ans = $triangle[$n - 1];
-        for ($i = $n - 2; $i >=0; $i--) {
+        for ($i = $n - 2; $i >= 0; $i--) {
             for ($j = 0; $j <= $i; $j++) {
                 $ans[$j] = $triangle[$i][$j] + min($ans[$j], $ans[$j + 1]);
             }

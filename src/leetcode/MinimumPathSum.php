@@ -13,15 +13,15 @@ class MinimumPathSum
             return 0;
         }
         $dp = array_fill(0, $m, array_fill(0, $n, $grids[0][0]));
-        for ($i = 1; $i < $m; ++$i) {
+        for ($i = 1; $i < $m; $i++) {
             $dp[$i][0] = $dp[$i - 1][0] + $grids[$i][0];
         }
-        for ($j = 1; $j < $n; ++$j) {
+        for ($j = 1; $j < $n; $j++) {
             $dp[0][$j] = $dp[0][$j - 1] + $grids[0][$j];
         }
 
-        for ($i = 1; $i < $m; ++$i) {
-            for ($j = 1; $j < $n; ++$j) {
+        for ($i = 1; $i < $m; $i++) {
+            for ($j = 1; $j < $n; $j++) {
                 $dp[$i][$j] = min($dp[$i - 1][$j], $dp[$i][$j - 1]) + $grids[$i][$j];
             }
         }
@@ -36,12 +36,12 @@ class MinimumPathSum
             return 0;
         }
         $prev = $curr = array_fill(0, $n, 1);
-        for ($i = 1; $i < $n; ++$i) {
+        for ($i = 1; $i < $n; $i++) {
             $prev[$i] = $prev[$i - 1] + $grids[0][$i];
         }
-        for ($i = 1; $i < $m; ++$i) {
+        for ($i = 1; $i < $m; $i++) {
             $curr[0] = $prev[0] + $grids[$i][0];
-            for ($j = 1; $j < $n; ++$j) {
+            for ($j = 1; $j < $n; $j++) {
                 $curr[$j] = min($prev[$j], $curr[$j - 1]) + $grids[$i][$j];
             }
             $temp = $prev;
@@ -59,12 +59,12 @@ class MinimumPathSum
             return 0;
         }
         $dp = array_fill(0, $n, $grids[0][0]);
-        for ($i = 1; $i < $n; ++$i) {
+        for ($i = 1; $i < $n; $i++) {
             $dp[$i] = $dp[$i - 1] + $grids[0][$i];
         }
-        for ($i = 1; $i < $m; ++$i) {
+        for ($i = 1; $i < $m; $i++) {
             $dp[0] += $grids[0][$i];
-            for ($j = 1; $j < $n; ++$j) {
+            for ($j = 1; $j < $n; $j++) {
                 $dp[$j] = min($dp[$j - 1], $dp[$j]) + $grids[$i][$j];
             }
         }
@@ -78,12 +78,12 @@ class MinimumPathSum
         if ($m <= 0 || $n <= 0) {
             return 0;
         }
-        for ($i = 1; $i < $n; ++$i) {
+        for ($i = 1; $i < $n; $i++) {
             $grids[0][$i] += $grids[0][$i - 1];
         }
-        for ($i = 1; $i < $m; ++$i) {
+        for ($i = 1; $i < $m; $i++) {
             $grids[$i][0] += $grids[$i - 1][0];
-            for ($j = 1; $j < $n; ++$j) {
+            for ($j = 1; $j < $n; $j++) {
                 $grids[$i][$j] += min($grids[$i][$j - 1], $grids[$i - 1][$j]);
             }
         }

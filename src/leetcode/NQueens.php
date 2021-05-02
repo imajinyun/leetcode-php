@@ -25,7 +25,7 @@ class NQueens
         return $positions;
     }
 
-    private static function isAttackedRange(int $n, int $row, & $positions): bool
+    private static function isAttackedRange(int $n, int $row, &$positions): bool
     {
         if ($n === $row) {
             return true;

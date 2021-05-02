@@ -12,7 +12,7 @@ class PaintFence
             return 0;
         }
         [$same, $diff] = [0, $k];
-        for ($i = 2; $i <= $n; ++$i) {
+        for ($i = 2; $i <= $n; $i++) {
             $temp = $diff;
             $diff = ($same + $diff) * ($k - 1);
             $same = $temp;
@@ -37,7 +37,7 @@ class PaintFence
         $same[1] = $k;
         $diff[0] = $k;
         $diff[1] = $diff[0] * ($k - 1);
-        for ($i = 2; $i < $n; ++$i) {
+        for ($i = 2; $i < $n; $i++) {
             $same[$i] = $diff[$i - 1];
             $diff[$i] = ($same[$i - 1] + $diff[$i - 1]) * ($k - 1);
         }
@@ -57,7 +57,7 @@ class PaintFence
             return $k * $k;
         }
         [$same, $diff] = [$k, $k * ($k - 1)];
-        for ($i = 3; $i <= $n; ++$i) {
+        for ($i = 3; $i <= $n; $i++) {
             $temp = ($same + $diff) * ($k - 1);
             $same = $diff;
             $diff = $temp;

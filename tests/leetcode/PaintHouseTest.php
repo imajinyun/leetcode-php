@@ -19,7 +19,7 @@ class PaintHouseTest extends TestCase
         self::assertSame(13, PaintHouse::minCost([
             [1, 2, 1],
             [4, 5, 5],
-            [7, 8, 9]
+            [7, 8, 9],
         ]));
     }
 
@@ -33,7 +33,7 @@ class PaintHouseTest extends TestCase
         self::assertSame(13, PaintHouse::minCost([
             [1, 2, 1],
             [4, 5, 5],
-            [7, 8, 9]
+            [7, 8, 9],
         ]));
     }
 }
