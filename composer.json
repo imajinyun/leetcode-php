@@ -1,0 +1,36 @@
+{
+  "name": "imajinyun/leetcode-php",
+  "type": "project",
+  "description": "LeetCode for PHP",
+  "keywords": [
+    "leetcode",
+    "algorithm"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "imajinyun",
+      "email": "imajinyun@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "leetcode\\": "src/leetcode/",
+      "swordoffer\\": "src/swordoffer/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "leetcode\\tests\\": "tests/leetcode/",
+      "swordoffer\\tests\\": "tests/swordoffer/"
+    }
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
