@@ -7,7 +7,7 @@ namespace leetcode\tests;
 use leetcode\RangeSumQueryImmutable;
 use PHPUnit\Framework\TestCase;
 
-class RangeSumQueryImmutableTest extends TestCase
+class RangeSumQueryImmutable extends TestCase
 {
     private array $num = [];
 

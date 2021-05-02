@@ -23,10 +23,10 @@ class GenerateParentheses
         }
 
         if ($left > 0) {
-            self::addParenthesis($ans, $left - 1, $right, $s.'(');
+            self::addParenthesis($ans, $left - 1, $right, $s . '(');
         }
         if ($right > $left) {
-            self::addParenthesis($ans, $left, $right - 1, $s.')');
+            self::addParenthesis($ans, $left, $right - 1, $s . ')');
         }
     }
 }
