@@ -1,0 +1,73 @@
+version: 0.0.{build}
+clone_depth: 2
+clone_folder: C:\projects\leetcode-php
+branches:
+  only:
+    - master
+shallow_clone: true
+platform: Any CPU
+build: false
+skip_tags: true
+environment:
+  PHPBuild: "x64"
+  DLLVersion: "5.3.0"
+  VC: "vc15"
+  matrix:
+    - dependencies: lowest
+      php_ver_target: 7.4
+    - dependencies: highest
+      php_ver_target: 7.4
+
+matrix:
+  fast_finish: true
+
+cache:
+  # cache is cleared when linked file is modified
+  - '%LOCALAPPDATA%\Composer\files -> composer.lock'
+  - composer.phar
+  - C:\ProgramData\chocolatey\bin -> .appveyor.yml
+  - C:\ProgramData\chocolatey\lib -> .appveyor.yml
+  - C:\tools\php -> .appveyor.yml
+
+init:
+  - git config --global core.autocrlf input
+  - SET PATH=C:\Program Files\OpenSSL;C:\tools\php;%PATH%
+  - SET PHP=1 # This var is connected to PHP install cache
+  - SET ANSICON=121x90 (121x90)
+  - SET COMPOSER_NO_INTERACTION=1
+
+# Install PHP and composer, and run the appropriate composer command.
+install:
+  - IF EXIST C:\tool\php (SET PHP=0)
+  - ps: choco upgrade chocolatey -y --version 0.10.13 --allow-downgrade
+
+  # Enable Windows update service
+  - ps: Set-Service wuauserv -StartupType Manual
+
+  # Install PHP
+  - ps: appveyor-retry cinst --params '""/InstallDir:C:\tools\php""' --ignore-checksums -y php --version ((choco search php --exact --all-versions -r | select-string -pattern $env:php_ver_target | sort { [version]($_ -split '\|' | select -last 1) } -Descending | Select-Object -first 1) -replace '[php|]','')
+  - appveyor-retry cinst -y sqlite
+  - cd C:\tools\php
+  - IF %PHP%==1 copy php.ini-production php.ini /Y
+  - IF %PHP%==1 echo date.timezone="PRC" >> php.ini
+  - IF %PHP%==1 echo extension_dir=ext >> php.ini
+  - IF %PHP%==1 echo extension=php_openssl.dll >> php.ini
+  - IF %PHP%==1 echo extension=php_mbstring.dll >> php.ini
+  - IF %PHP%==1 echo extension=php_fileinfo.dll >> php.ini
+  - IF %PHP%==1 echo zend.assertions=1 >> php.ini
+  - IF %PHP%==1 echo assert.exception=On >> php.ini
+  - IF %PHP%==1 echo error_reporting=E_ALL >> php.ini
+  - IF %PHP%==1 echo @php %%~dp0composer.phar %%* > composer.bat
+
+  # Install composer and update per matrix
+  - appveyor-retry appveyor DownloadFile https://getcomposer.org/composer.phar
+  - cd C:\projects\php-design-patterns
+  - appveyor-retry composer install --no-progress --profile
+  - IF %dependencies%==lowest appveyor-retry composer update --no-suggest --prefer-dist --prefer-lowest
+  - IF %dependencies%==highest appveyor-retry composer update --no-suggest --prefer-dist
+  - composer show
+test_script:
+  - cd C:\projects\leetcode-php
+  - php --version
+  - composer --version
+  - vendor/bin/phpunit -c phpunit.xml.dist
