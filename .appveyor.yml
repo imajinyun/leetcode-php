@@ -61,7 +61,7 @@ install:
 
   # Install composer and update per matrix
   - appveyor-retry appveyor DownloadFile https://getcomposer.org/composer.phar
-  - cd C:\projects\php-design-patterns
+  - cd C:\projects\leetcode-php
   - appveyor-retry composer install --no-progress --profile
   - IF %dependencies%==lowest appveyor-retry composer update --no-suggest --prefer-dist --prefer-lowest
   - IF %dependencies%==highest appveyor-retry composer update --no-suggest --prefer-dist
