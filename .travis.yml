@@ -1,0 +1,55 @@
+language: php
+dist: trusty
+sudo: false
+group: deprecated-2017Q4
+
+env:
+  global:
+    - SETUP=stable
+
+php:
+  - 7.4
+  - 8.0
+
+matrix:
+  fast_finish: true
+
+  include:
+    - php: 7.4
+      env: SETUP=lowest
+    - php: 8.0
+      env: SETUP=lowest
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+install:
+  - curl -s http://getcomposer.org/installer | php
+  - if [[ $SETUP = 'stable' ]]; then travis_retry composer update --prefer-dist --no-interaction --prefer-stable --no-suggest; fi
+  - if [[ $SETUP = 'lowest' ]]; then travis_retry composer update --prefer-dist --no-interaction --prefer-lowest --prefer-stable --no-suggest; fi
+  - composer require php-coveralls/php-coveralls
+
+before_script:
+  - phpenv config-rm xdebug.ini || true
+  - mkdir -p build/logs
+
+  # show some versions and env information
+  - php --version
+  - composer --version
+
+script:
+  - php vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover build/logs/clover.xml
+
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml
+
+after_success:
+  - travis_retry php vendor/bin/coveralls -v
+  - if [[ $SETUP = 'stable' ]]; then bash <(curl -s https://codecov.io/bash); fi
+  - if [[ $SETUP = 'stable' ]]; then travis_retry php vendor/bin/coveralls -v; fi
+  - php vendor/bin/codacycoverage clover build/logs/clover.xml
+
+notifications:
+  email: false
