@@ -1,5 +1,6 @@
 # LeetCode for PHP
 
+[![Build Status](https://travis-ci.org/imajinyun/leetcode-php.svg?branch=master)](https://travis-ci.org/imajinyun/leetcode-php)
 [![StyleCI](https://github.styleci.io/repos/363634864/shield?branch=master)](https://github.styleci.io/repos/363634864?branch=master)
 
 # Requirements
