@@ -13,16 +13,19 @@ class LowestCommonAncestorOfABinaryTree
         TreeNode $p = null,
         TreeNode $q = null
     ): ?TreeNode {
-        if ($root === null || $root === $p || $root === $q) {
+        if ($root === null) {
+            return $root;
+        }
+        if ($root->val === $p->val || $root->val === $q->val) {
             return $root;
         }
 
         $left = self::lowestCommonAncestor($root->left, $p, $q);
         $right = self::lowestCommonAncestor($root->right, $p, $q);
-        if ($left !== null && $right !== null) {
+        if ($left && $right) {
             return $root;
         }
 
-        return $left !== null ? $left: $right;
+        return $left ?: $right;
     }
 }

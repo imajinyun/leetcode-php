@@ -47,4 +47,32 @@ class TreeNode
 
         return $result;
     }
+
+    public static function fromArray(array $array): ?TreeNode
+    {
+        if (empty($array)) {
+            return null;
+        }
+        [$queue, $root] = [[], new TreeNode($array[0])];
+        [$i, $n] = [0, count($array)];
+        $queue[] = $root;
+
+        while ($i < $n) {
+            $node = array_shift($queue);
+            if ($node) {
+                if (isset($array[++$i])) {
+                    $value = $array[$i];
+                    $node->left = new TreeNode($value);
+                    $queue[] = $node->left;
+                }
+                if (isset($array[++$i])) {
+                    $value = $array[$i];
+                    $node->right = new TreeNode($value);
+                    $queue[] = $node->right;
+                }
+            }
+        }
+
+        return $root;
+    }
 }
