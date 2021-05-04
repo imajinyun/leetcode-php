@@ -13,7 +13,8 @@ class MinimumWindowSubstring
             return '';
         }
         for ($i = 0; $i < $n; $i++) {
-            $map[$t[$i]] = isset($map[$t[$i]]) ? $map[$t[$i]]++ : 0;
+            $k = $t[$i];
+            $map[$k] = ($map[$k] ?? 0) + 1;
         }
         $left = $right = $match = $start = 0;
         $len = PHP_INT_MAX;
@@ -33,7 +34,7 @@ class MinimumWindowSubstring
                 }
                 $d = $s[$left];
                 $left++;
-                if (count($map[$d])) {
+                if (isset($map[$d])) {
                     if ($win[$d] === $map[$d]) {
                         $match--;
                     }
@@ -42,6 +43,42 @@ class MinimumWindowSubstring
             }
         }
 
-        return $len === PHP_INT_MAX ? '' : substr($start, $len);
+        return $len === PHP_INT_MAX ? '' : substr($s, $start, $len);
+    }
+
+    public static function minWindow2(string $s, string $t): string
+    {
+        [$m, $n, $map] = [strlen($s), strlen($t), []];
+        if ($m === 0 || $n === 0) {
+            return '';
+        }
+        for ($i = 0; $i < $n; $i++) {
+            $k = $t[$i];
+            $map[$k] = ($map[$k] ?? 0) + 1;
+        }
+        $left = $right = $start = 0;
+        $len = PHP_INT_MAX;
+        while ($right < $m) {
+            $c = $s[$right];
+            $right++;
+            if (isset($map[$c]) && $map[$c] > 0) {
+                $n--;
+            }
+            $map[$c] = ($map[$c] ?? 0) - 1;
+            while ($n === 0) {
+                if ($right - $left < $len) {
+                    $len = $right - $left;
+                    $start = $left;
+                }
+                $d = $s[$left];
+                $left++;
+                $map[$d] = ($map[$d] ?? 0) + 1;
+                if ($map[$d] > 0) {
+                    $n++;
+                }
+            }
+        }
+
+        return $len === PHP_INT_MAX ? '' : substr($s, $start,  $len);
     }
 }
