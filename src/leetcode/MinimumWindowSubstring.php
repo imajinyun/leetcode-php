@@ -79,6 +79,6 @@ class MinimumWindowSubstring
             }
         }
 
-        return $len === PHP_INT_MAX ? '' : substr($s, $start,  $len);
+        return $len === PHP_INT_MAX ? '' : substr($s, $start, $len);
     }
 }
