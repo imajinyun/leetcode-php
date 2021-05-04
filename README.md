@@ -1,4 +1,4 @@
-# LeetCode for PHP
+# 💫 LeetCode for PHP 🐘
 
 [![Build Status](https://travis-ci.org/imajinyun/leetcode-php.svg?branch=master)](https://travis-ci.org/imajinyun/leetcode-php)
 [![Build status](https://ci.appveyor.com/api/projects/status/63m04iayror6ieh2?svg=true)](https://ci.appveyor.com/project/imajinyun/leetcode-php)
@@ -7,12 +7,12 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/?branch=master)
 [![Version](https://img.shields.io/static/v1?label=version&message=%3E%3D7.4&color=%234F5893&labelColor=grey&logo=PHP&logoColor=blue&style=flat&link=https%3A%2F%2Fwww.php.net%2Fsupported-versions.php)](https://www.php.net/supported-versions.php)
 
-# Requirements
+## Requirements
 
 * PHP >= 7.4.0
 * PHPUnit >= 9.5.0
 
-# Installation
+## Installation
 
 Install the package through [Composer](https://getcomposer.org/).
 
@@ -24,15 +24,15 @@ cd leetcode-php
 composer install
 ```
 
-# Usage
+## Usage
 
 ```bash
 phpunit -vvv
 ```
 
-# Contents
+## Contents
 
-## LeetCode
+### LeetCode
 
 <details>
 <summary>String</summary>
@@ -333,13 +333,13 @@ phpunit -vvv
 
 </details>
 
-## 剑指 Offer
+### 剑指 Offer
 
 * [032. 从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
 * [032. 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)
 * [032. 从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)
 * [061. 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 
-## 程序员面试金典
+### 程序员面试金典
 
 * [0403. 特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/)
