@@ -1,12 +1,10 @@
 codecov:
-  notify:
-    after_n_builds: null
-    require_ci_to_pass: yes
+  require_ci_to_pass: yes
 
 coverage:
   precision: 2
   round: down
-  range: "75...100"
+  range: "70...100"
 
   status:
     project: yes
@@ -22,7 +20,6 @@ parsers:
       macro: no
 
 comment:
-  layout: header, diff
-  branches: *
+  layout: "reach,diff,flags,files,footer"
   behavior: default
   require_changes: no
