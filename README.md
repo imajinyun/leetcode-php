@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/imajinyun/leetcode-php/branch/master/graph/badge.svg?token=Y9H1AHWLFY)](https://codecov.io/gh/imajinyun/leetcode-php)
 [![StyleCI](https://github.styleci.io/repos/363634864/shield?branch=master)](https://github.styleci.io/repos/363634864?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/?branch=master)
-![Version](https://img.shields.io/static/v1?schemaVersion=1&label=version&message=%3E%3D7.4&color=%234F5893&labelColor=grey&logo=PHP&logoColor=blue&style=for-the-badge&link=https%3A%2F%2Fwww.php.net%2Fsupported-versions.php)
+[![Version](https://img.shields.io/static/v1?label=version&message=%3E%3D7.4&color=%234F5893&labelColor=grey&logo=PHP&logoColor=blue&style=for-the-badge&link=https%3A%2F%2Fwww.php.net%2Fsupported-versions.php)
 
 # Requirements
 
