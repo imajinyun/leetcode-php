@@ -9,7 +9,7 @@
 
 ## Requirements
 
-* PHP >= 7.4.0
+* PHP >= 8.0.0
 * PHPUnit >= 9.5.0
 
 ## Installation
