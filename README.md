@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/imajinyun/leetcode-php.svg?branch=master)](https://travis-ci.org/imajinyun/leetcode-php)
 [![Build status](https://ci.appveyor.com/api/projects/status/63m04iayror6ieh2?svg=true)](https://ci.appveyor.com/project/imajinyun/leetcode-php)
+[![PHP Composer](https://github.com/imajinyun/leetcode-php/actions/workflows/php.yml/badge.svg?branch=master)](https://github.com/imajinyun/leetcode-php/actions/workflows/php.yml)
 [![codecov](https://codecov.io/gh/imajinyun/leetcode-php/branch/master/graph/badge.svg?token=Y9H1AHWLFY)](https://codecov.io/gh/imajinyun/leetcode-php)
 [![StyleCI](https://github.styleci.io/repos/363634864/shield?branch=master)](https://github.styleci.io/repos/363634864?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/?branch=master)
