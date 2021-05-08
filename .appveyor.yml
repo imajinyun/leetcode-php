@@ -14,9 +14,9 @@ environment:
   VC: "vc15"
   matrix:
     - dependencies: lowest
-      php_ver_target: 7.4
+      php_ver_target: 8.0
     - dependencies: highest
-      php_ver_target: 7.4
+      php_ver_target: 8.0
 
 matrix:
   fast_finish: true
