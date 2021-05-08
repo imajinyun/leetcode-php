@@ -54,6 +54,7 @@ install:
   - IF %PHP%==1 echo extension=php_openssl.dll >> php.ini
   - IF %PHP%==1 echo extension=php_mbstring.dll >> php.ini
   - IF %PHP%==1 echo extension=php_fileinfo.dll >> php.ini
+  - IF %PHP%==1 echo extension=php_curl.dll >> php.ini
   - IF %PHP%==1 echo zend.assertions=1 >> php.ini
   - IF %PHP%==1 echo assert.exception=On >> php.ini
   - IF %PHP%==1 echo error_reporting=E_ALL >> php.ini
