@@ -9,9 +9,6 @@ platform: Any CPU
 build: false
 skip_tags: true
 environment:
-  PHPBuild: "x64"
-  DLLVersion: "5.3.0"
-  VC: "vc15"
   matrix:
     - dependencies: lowest
       php_ver_target: 8.0
