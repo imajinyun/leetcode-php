@@ -10,8 +10,8 @@
 
 ## Requirements
 
-* PHP >= 8.0.0
-* PHPUnit >= 9.5.0
+* PHP >= 8.0
+* PHPUnit >= 9.5
 
 ## Installation
 
@@ -102,6 +102,8 @@ phpunit -vvv
 |`0999. 可以被一步捕获的棋子数`|[Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AvailableCapturesForRook.php)|
 |`1002. 查找常用字符`|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindCommonCharacters.php)|
 |`1013. 将数组分成和相等的三个部分`|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PartitionArrayIntoThreePartsWithEqualSum.php)|
+|`1018. 可被 5 整除的二进制前缀`|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HeightChecker.php)|
+|`1051. 高度检查器`|[Height Checker](https://leetcode.com/problems/height-checker/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HeightChecker.php)|
 
 </details>
 
@@ -110,10 +112,10 @@ phpunit -vvv
 
 |题目|来源|实现|
 |---|---|---|
-|`0002. 两数相加`|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)||
-|`0024. 两两交换链表中的节点`|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)||
-|`0206. 反转链表`|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)||
-|`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)||
+|`0002. 两数相加`|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AddTwoNumbers.php)|
+|`0024. 两两交换链表中的节点`|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SwapNodesInPairs.php)|
+|`0206. 反转链表`|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseLinkedList.php)|
+|`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LinkedListCycle.php)|
 
 </details>
 
@@ -122,7 +124,7 @@ phpunit -vvv
 
 |题目|来源|实现|
 |---|---|---|
-|`0020. 有效的括号`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)||
+|`0020. 有效的括号`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidParentheses.php)|
 |`0496. 下一个更大元素 I`|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)||
 |`0503. 下一个更大元素 II`|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)||
 |`0739. 每日温度`|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)||

@@ -15,4 +15,11 @@ class HeightCheckerTest extends TestCase
         self::assertSame(5, HeightChecker::heightChecker([5, 1, 2, 3, 4]));
         self::assertSame(0, HeightChecker::heightChecker([1, 2, 3, 4, 5]));
     }
+
+    public function testHeightChecker2(): void
+    {
+        self::assertSame(3, HeightChecker::heightChecker2([1, 1, 4, 2, 1, 3]));
+        self::assertSame(5, HeightChecker::heightChecker2([5, 1, 2, 3, 4]));
+        self::assertSame(0, HeightChecker::heightChecker2([1, 2, 3, 4, 5]));
+    }
 }
