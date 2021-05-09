@@ -9,6 +9,9 @@ platform: Any CPU
 build: false
 skip_tags: true
 environment:
+  PHPBuild: "x64"
+  DLLVersion: "5.3.0"
+  VC: "vc15"
   matrix:
     - dependencies: lowest
       php_ver_target: 8.0
@@ -58,8 +61,8 @@ install:
   - IF %PHP%==1 echo @php %%~dp0composer.phar %%* > composer.bat
 
   # Install composer and update per matrix
-  - cd C:\projects\leetcode-php
   - appveyor-retry appveyor DownloadFile https://getcomposer.org/composer.phar
+  - cd C:\projects\leetcode-php
   - appveyor-retry composer install --no-progress --profile
   - IF %dependencies%==lowest appveyor-retry composer update --no-suggest --prefer-dist --prefer-lowest
   - IF %dependencies%==highest appveyor-retry composer update --no-suggest --prefer-dist
