@@ -13,8 +13,8 @@ class BinaryPrefixDivisibleByFive
         }
         [$ans, $num] = [[], 0];
         foreach ($arr as $val) {
-            $num = ($num * 2 + $val) % 5;
-            $ans[] = $num === 0;
+            $num = $num * 2 + $val;
+            array_push($ans, $num % 5 === 0);
         }
 
         return $ans;
