@@ -33,4 +33,18 @@ class BinaryPrefixDivisibleByFive
 
         return $arr;
     }
+
+    public static function prefixesDivByFive3(array $arr): array
+    {
+        if (empty($arr)) {
+            return [];
+        }
+        $num = 0;
+        foreach ($arr as $key => $val) {
+            $num = (($num << 1) + $val) % 5;
+            $arr[$key] = $num === 0;
+        }
+
+        return $arr;
+    }
 }

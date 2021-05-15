@@ -48,4 +48,24 @@ class BinaryPrefixDivisibleByFiveTest extends TestCase
             BinaryPrefixDivisibleByFive::prefixesDivByFive2([1, 1, 1, 0, 1])
         );
     }
+
+    public function testPrefixesDivByFive3(): void
+    {
+        self::assertSame(
+            [true, false, false],
+            BinaryPrefixDivisibleByFive::prefixesDivByFive3([0, 1, 1])
+        );
+        self::assertSame(
+            [false, false, false],
+            BinaryPrefixDivisibleByFive::prefixesDivByFive3([1, 1, 1])
+        );
+        self::assertSame(
+            [true, false, false, false, true, false],
+            BinaryPrefixDivisibleByFive::prefixesDivByFive3([0, 1, 1, 1, 1, 1])
+        );
+        self::assertSame(
+            [false, false, false, false, false],
+            BinaryPrefixDivisibleByFive::prefixesDivByFive3([1, 1, 1, 0, 1])
+        );
+    }
 }
