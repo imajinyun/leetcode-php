@@ -18,7 +18,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5",
-    "phpstan/phpstan": "^0.12.85"
+    "phpstan/phpstan": "^0.12.85",
+    "codeception/codeception": "^4.1"
   },
   "autoload": {
     "psr-4": {
