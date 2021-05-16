@@ -15,18 +15,18 @@ class HeightChecker
         foreach ($heights as $height) {
             $map[$height]++;
         }
-        [$prev, $curr] = [0, 1];
+        [$cnt, $curr] = [0, 1];
         foreach ($heights as $height) {
             while ($map[$curr] === 0) {
                 $curr++;
             }
             if ($curr !== $height) {
-                $prev++;
+                $cnt++;
             }
             $map[$curr]--;
         }
 
-        return $prev;
+        return $cnt;
     }
 
     public static function heightChecker2(array $heights): int
