@@ -1,6 +1,7 @@
 language: php
 dist: focal
 sudo: false
+group: edge
 
 env:
   global:
