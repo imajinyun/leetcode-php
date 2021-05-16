@@ -9,12 +9,15 @@ env:
 
 php:
   - 7.4
+  - 8.0
 
 matrix:
   fast_finish: true
 
   include:
     - php: 7.4
+      env: SETUP=lowest
+    - php: 8.0
       env: SETUP=lowest
 
 cache:
