@@ -104,6 +104,11 @@ phpunit -vvv
 |`1013. 将数组分成和相等的三个部分`|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PartitionArrayIntoThreePartsWithEqualSum.php)|
 |`1018. 可被 5 整除的二进制前缀`|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HeightChecker.php)|
 |`1051. 高度检查器`|[Height Checker](https://leetcode.com/problems/height-checker/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HeightChecker.php)|
+|`1064. 不动点`|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FixedPoint.php)|
+|`1085. 最小元素各数位之和`|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SumOfDigitsInTheMinimumNumber.php)|
+|`1086. 前五科的均分`|[High Five](https://leetcode.com/problems/high-five/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HighFive.php)|
+|`1089. 复写零`|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DuplicateZeros.php)|
+|`1122. 数组的相对排序`|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Solution]()|
 
 </details>
 
