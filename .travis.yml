@@ -15,7 +15,7 @@ matrix:
 
   include:
     - php: 8.0
-      env: SETUP=lowest
+      env: SETUP=stable
 
 cache:
   directories:
