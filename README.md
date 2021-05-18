@@ -108,7 +108,8 @@ phpunit -vvv
 |`1085. 最小元素各数位之和`|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SumOfDigitsInTheMinimumNumber.php)|
 |`1086. 前五科的均分`|[High Five](https://leetcode.com/problems/high-five/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HighFive.php)|
 |`1089. 复写零`|[Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DuplicateZeros.php)|
-|`1122. 数组的相对排序`|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Solution]()|
+|`1099 小于 K 的两数之和`|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TwoSumLessThanK.php)|
+|`1122. 数组的相对排序`|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RelativeSortArray.php)|
 
 </details>
 
