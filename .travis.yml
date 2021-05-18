@@ -8,7 +8,6 @@ env:
     - SETUP=stable
 
 php:
-  - 7.4
   - 8.0
 
 matrix:
