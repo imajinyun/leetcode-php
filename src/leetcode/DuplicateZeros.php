@@ -18,7 +18,7 @@ class DuplicateZeros
             }
         }
         [$m, $n] = [count($arr), count($arr) + $cnt];
-        for ($i = $m - 1, $j = $n - 1; $i < $j; $i--, $j--) {
+        for ($i = $m - 1, $j = $n - 1; $i >= 0 && $i < $j; $i--, $j--) {
             if ($arr[$i] !== 0) {
                 if ($j < $m) {
                     $arr[$j] = $arr[$i];
