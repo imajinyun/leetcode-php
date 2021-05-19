@@ -354,3 +354,7 @@ phpunit -vvv
 ### 程序员面试金典
 
 * [0403. 特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/)
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php?ref=badge_large)
