@@ -113,6 +113,7 @@ phpunit -vvv
 |`1099 小于 K 的两数之和`|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TwoSumLessThanK.php)|
 |`1122. 数组的相对排序`|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RelativeSortArray.php)|
 |`1128. 等价多米诺骨牌对的数量`|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfEquivalentDominoPairs.php)|
+|`1150. 检查一个数是否在数组中占绝大多数`|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CheckIfANumberIsMajorityElementInASortedArrayEasy.php)|
 
 </details>
 
