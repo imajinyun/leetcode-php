@@ -22,4 +22,11 @@ class DistanceBetweenBusStopsTest extends TestCase
         self::assertSame(3, DistanceBetweenBusStops::distanceBetweenBusStops2([1, 2, 3, 4], 0, 2));
         self::assertSame(4, DistanceBetweenBusStops::distanceBetweenBusStops2([1, 2, 3, 4], 0, 3));
     }
+
+    public function testDistanceBetweenBusStops3(): void
+    {
+        self::assertSame(1, DistanceBetweenBusStops::distanceBetweenBusStops3([1, 2, 3, 4], 0, 1));
+        self::assertSame(3, DistanceBetweenBusStops::distanceBetweenBusStops3([1, 2, 3, 4], 0, 2));
+        self::assertSame(4, DistanceBetweenBusStops::distanceBetweenBusStops3([1, 2, 3, 4], 0, 3));
+    }
 }

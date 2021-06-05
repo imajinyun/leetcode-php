@@ -37,4 +37,20 @@ class DistanceBetweenBusStops
 
         return min(array_sum($slice), array_sum($distance) - array_sum($slice));
     }
+
+    public static function distanceBetweenBusStops3(array $distance, int $start, int $destination): int
+    {
+        if (empty($distance) || $start < 0 || $destination < 0) {
+            return 0;
+        }
+        [$a, $b, $n] = [0, 0, count($distance)];
+        for ($i = $start; $i !== $destination; $i = ($i + 1) % $n) {
+            $a += $distance[$i];
+        }
+        for ($i = $destination; $i !== $start; $i = ($i + 1) % $n) {
+            $b += $distance[$i];
+        }
+
+        return min($a, $b);
+    }
 }
