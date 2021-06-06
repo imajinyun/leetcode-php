@@ -30,7 +30,7 @@ install:
   - if [[ $SETUP = 'lowest' ]]; then travis_retry composer update --prefer-dist --no-interaction --prefer-lowest --prefer-stable --no-suggest; fi
 
 before_script:
-  - phpenv config-rm xdebug.ini || true
+  - phpenv config-add ~/.phpenv/versions/$(phpenv version-name)/etc/xdebug.ini
   - mkdir -p build/logs
 
   # show some versions and env information
