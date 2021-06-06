@@ -48,8 +48,8 @@
   "scripts": {
     "post-merge": "composer install",
     "phpstan": "vendor/bin/phpstan analyse",
-    "check-style": "php-cs-fixer fix --using-cache=no --diff --config=.php-cs-fixer.php --dry-run --ansi",
-    "fix-style": "php-cs-fixer fix --using-cache=no --config=.php_cs --ansi",
+    "check:style": "php-cs-fixer fix --using-cache=no --diff --config=.php-cs-fixer.php --dry-run --ansi",
+    "fixed:style": "php-cs-fixer fix --using-cache=no --config=.php_cs --ansi",
     "test": "vendor/bin/phpunit --colors=always --testdox",
     "test:coverage": [
       "@putenv XDEBUG_MODE=coverage",
