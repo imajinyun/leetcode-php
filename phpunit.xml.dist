@@ -7,7 +7,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="LeetCode for PHP">
+        <testsuite name="LeetCode for PHP Test Suit">
             <directory suffix="Test.php">./tests</directory>
         </testsuite>
     </testsuites>
