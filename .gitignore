@@ -1,6 +1,7 @@
 /.vscode
 /.idea
 /vendor
+/build
 
 .php_cs.cache
 .phpstorm.meta.php
