@@ -9,6 +9,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/?branch=master)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php?ref=badge_shield)
 [![Version](https://img.shields.io/static/v1?label=version&message=%3E%3D8.0&color=%234F5893&labelColor=grey&logo=PHP&logoColor=blue&style=flat&link=https%3A%2F%2Fwww.php.net%2Fsupported-versions.php)](https://www.php.net/supported-versions.php)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php?ref=badge_shield)
 
 ## Requirements
 
@@ -360,6 +361,7 @@ phpunit -vvv
 ### 程序员面试金典
 
 * [0403. 特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/)
+
 
 ## License
 
