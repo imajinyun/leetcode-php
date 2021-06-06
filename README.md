@@ -7,6 +7,7 @@
 [![StyleCI](https://github.styleci.io/repos/363634864/shield?branch=master)](https://github.styleci.io/repos/363634864?branch=master)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=leetcode-php&metric=alert_status)](https://sonarcloud.io/dashboard?id=leetcode-php)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/imajinyun/leetcode-php/?branch=master)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php?ref=badge_shield)
 [![Version](https://img.shields.io/static/v1?label=version&message=%3E%3D8.0&color=%234F5893&labelColor=grey&logo=PHP&logoColor=blue&style=flat&link=https%3A%2F%2Fwww.php.net%2Fsupported-versions.php)](https://www.php.net/supported-versions.php)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php?ref=badge_shield)
 
@@ -113,6 +114,11 @@ phpunit -vvv
 |`1099 小于 K 的两数之和`|[Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TwoSumLessThanK.php)|
 |`1122. 数组的相对排序`|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RelativeSortArray.php)|
 |`1128. 等价多米诺骨牌对的数量`|[Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfEquivalentDominoPairs.php)|
+|`1150. 检查一个数是否在数组中占绝大多数`|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CheckIfANumberIsMajorityElementInASortedArrayEasy.php)|
+|`1160. 拼写单词`|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWordsThatCanBeFormedByCharacters.php)|
+|`1176. 健身计划评估`|[Diet Plan Performance Easy](https://leetcode.com/problems/diet-plan-performance/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DietPlanPerformanceEasy.php)|
+|`1184. 公交站间的距离`|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DistanceBetweenBusStops.php)|
+|`1185. 一周中的第几天`|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DayOfTheWeek.php)|
 
 </details>
 
@@ -358,4 +364,5 @@ phpunit -vvv
 
 
 ## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fimajinyun%2Fleetcode-php?ref=badge_large)
