@@ -119,6 +119,7 @@ phpunit -vvv
 |`1176. 健身计划评估`|[Diet Plan Performance Easy](https://leetcode.com/problems/diet-plan-performance/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DietPlanPerformanceEasy.php)|
 |`1184. 公交站间的距离`|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DistanceBetweenBusStops.php)|
 |`1185. 一周中的第几天`|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DayOfTheWeek.php)|
+|`1200. 最小绝对差`|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumAbsoluteDifference.php)|
 
 </details>
 
