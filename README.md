@@ -120,6 +120,9 @@ phpunit -vvv
 |`1184. 公交站间的距离`|[Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DistanceBetweenBusStops.php)|
 |`1185. 一周中的第几天`|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DayOfTheWeek.php)|
 |`1200. 最小绝对差`|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumAbsoluteDifference.php)|
+|`1217. 玩筹码`|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumCostToMoveChipsToTheSamePosition.php)|
+|`1232. 缀点成线`|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CheckIfItIsAStraightLine.php)|
+|`1243. 数组变换`|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ArrayTransformation.php)|
 
 </details>
 
