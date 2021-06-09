@@ -18,8 +18,7 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5",
-    "phpstan/phpstan": "^0.12.88",
-    "codeception/codeception": "^4.1"
+    "phpstan/phpstan": "^0.12.88"
   },
   "autoload": {
     "psr-4": {
@@ -37,11 +36,11 @@
     "hooks": {
       "pre-commit": [
         "composer test",
-        "composer fix-style"
+        "composer check:style"
       ],
       "pre-push": [
         "composer test",
-        "composer fix-style"
+        "composer check:style"
       ]
     }
   },
