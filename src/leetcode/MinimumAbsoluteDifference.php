@@ -18,7 +18,7 @@ class MinimumAbsoluteDifference
             if ($val < $min) {
                 $min = $val;
                 $ans[] = [$arr[$i], $arr[$i + 1]];
-            } else if ($val === $min) {
+            } elseif ($val === $min) {
                 $ans[] = [$arr[$i], $arr[$i + 1]];
             }
         }
