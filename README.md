@@ -38,17 +38,7 @@ phpunit -vvv
 
 ### LeetCode
 
-<details>
-<summary>String</summary>
 
-|题目|来源|实现|
-|---|---|---|
-
-</details>
-
-
-<details>
-<summary>Array</summary>
 
 |题目|来源|实现|
 |---|---|---|
@@ -127,44 +117,72 @@ phpunit -vvv
 </details>
 
 <details>
+<summary>HashTable</summary>
+
+|题目|来源|
+|---|---|
+|`0001. 两数之和`|[Two Sum](https://leetcode.com/problems/two-sum/)|
+|`0094. 二叉树的中序遍历`|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|
+|`0136. 只出现一次的数字`|[Single Number](https://leetcode.com/problems/single-number/)|
+|`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|
+
+</details>
+
+
+<details>
+<summary>Array</summary>
+
+<details>
+<summary>String</summary>
+
+|题目|来源|
+|---|---|
+
+</details>
+
+
+<details>
+<summary>Array</summary>
+
+<details>
 <summary>Linked List</summary>
 
-|题目|来源|实现|
-|---|---|---|
-|`0002. 两数相加`|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AddTwoNumbers.php)|
-|`0024. 两两交换链表中的节点`|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SwapNodesInPairs.php)|
-|`0206. 反转链表`|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseLinkedList.php)|
-|`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LinkedListCycle.php)|
+|题目|来源|
+|---|---|
+|`0002. 两数相加`|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|
+|`0024. 两两交换链表中的节点`|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|
+|`0206. 反转链表`|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|
+|`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|
 
 </details>
 
 <details>
 <summary>Stack</summary>
 
-|题目|来源|实现|
-|---|---|---|
-|`0020. 有效的括号`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidParentheses.php)|
-|`0496. 下一个更大元素 I`|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)||
-|`0503. 下一个更大元素 II`|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)||
-|`0739. 每日温度`|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)||
+|题目|来源|
+|---|---|
+|`0020. 有效的括号`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|
+|`0496. 下一个更大元素 I`|[Next Greater Element I](https://leetcode.com/problems/next-greatr-element-i/)|
+|`0503. 下一个更大元素 II`|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-i/)|
+|`0739. 每日温度`|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|
 
 </details>
 
 <details>
 <summary>Queue</summary>
 
-|题目|来源|实现|
-|---|---|---|
-|`0239. 滑动窗口最大值`|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)||
+|题目|来源|
+|---|---|
+|`0239. 滑动窗口最大值`|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|
 
 </details>
 
 <details>
 <summary>Heap</summary>
 
-|题目|来源|实现|
-|---|---|---|
-|`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)||
+|题目|来源|
+|---|---|
+|`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|
 
 </details>
 
