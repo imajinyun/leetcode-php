@@ -38,7 +38,8 @@ phpunit -vvv
 
 ### LeetCode
 
-
+<details>
+<summary>Array</summary>
 
 |题目|来源|实现|
 |---|---|---|
@@ -113,6 +114,9 @@ phpunit -vvv
 |`1217. 玩筹码`|[Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumCostToMoveChipsToTheSamePosition.php)|
 |`1232. 缀点成线`|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CheckIfItIsAStraightLine.php)|
 |`1243. 数组变换`|[Array Transformation](https://leetcode.com/problems/array-transformation/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ArrayTransformation.php)|
+|`1252. 奇数值单元格的数目`|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CellsWithOddValueInAMatrix.php)|
+|`1260. 二维网格迁移`|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Shift2DGrid.php)|
+|`1266. 访问所有点的最小时间`|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumTimeVisitingAllPoints.php)|
 
 </details>
 
@@ -128,10 +132,6 @@ phpunit -vvv
 
 </details>
 
-
-<details>
-<summary>Array</summary>
-
 <details>
 <summary>String</summary>
 
@@ -139,10 +139,6 @@ phpunit -vvv
 |---|---|
 
 </details>
-
-
-<details>
-<summary>Array</summary>
 
 <details>
 <summary>Linked List</summary>
