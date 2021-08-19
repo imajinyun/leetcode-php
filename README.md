@@ -168,25 +168,25 @@ phpunit -vvv
 <details>
 <summary>Queue</summary>
 
-|Subject|Source|
-|---|---|
-|`0239. 滑动窗口最大值`|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|
+|Subject|Source|Solution|
+|---|---|---|
+|`0239. 滑动窗口最大值`|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SlidingWindowMaximum.php)|
 
 </details>
 
 <details>
 <summary>Heap</summary>
 
-|Subject|Source|
-|---|---|
-|`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|
+|Subject|Source|Solution|
+|---|---|---|
+|`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthLargestElementInAStream.php)|
 
 </details>
 
 <details>
 <summary>Tree</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0020. 括号生成`|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)||
 |`0098. 验证二叉搜索树`|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)||
@@ -209,7 +209,7 @@ phpunit -vvv
 <details>
 <summary>Graph</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 
 </details>
@@ -217,7 +217,7 @@ phpunit -vvv
 <details>
 <summary>Math</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0050. 计算 x 的 n 次幂`|[Pow(x, n)](https://leetcode.com/problems/powx-n/)||
 
@@ -226,7 +226,7 @@ phpunit -vvv
 <details>
 <summary>Union Find</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0200. 岛屿数量`|[Number of Islands](https://leetcode.com/problems/number-of-islands/)||
 
@@ -235,7 +235,7 @@ phpunit -vvv
 <details>
 <summary>Graph</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 
 </details>
@@ -243,7 +243,7 @@ phpunit -vvv
 <details>
 <summary>Binary Search</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0069. x 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)||
 
@@ -252,7 +252,7 @@ phpunit -vvv
 <details>
 <summary>Dynamic Programming</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0005. 最长回文子串`|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||
 |`0062. 不同路径`|[Unique Paths](https://leetcode.com/problems/unique-paths/)||
@@ -281,7 +281,7 @@ phpunit -vvv
 <details>
 <summary>Recursion</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)||
 
@@ -290,7 +290,7 @@ phpunit -vvv
 <details>
 <summary>Divide and Conquer</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)||
 
@@ -299,7 +299,7 @@ phpunit -vvv
 <details>
 <summary>Backtracking</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0036. 有效的数独`|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)||
 |`0037. 解数独`|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)||
@@ -318,7 +318,7 @@ phpunit -vvv
 <details>
 <summary>Design</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0208. 实现 Trie（前缀树）`|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)||
 |`0225. 用队列实现栈`|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)||
@@ -329,7 +329,7 @@ phpunit -vvv
 <details>
 <summary>Two Pointers</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0015. 三数之和`|[3Sum](https://leetcode.com/problems/3sum/)||
 |`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)||
@@ -340,7 +340,7 @@ phpunit -vvv
 <details>
 <summary>Sliding Window</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0003. 无重复字符的最长子串`|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
 |`0076. 最小覆盖子串`|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)||
@@ -352,7 +352,7 @@ phpunit -vvv
 <details>
 <summary>Bit Manipulation</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
 |`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)||
 |`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)||
@@ -363,10 +363,10 @@ phpunit -vvv
 <details>
 <summary>Unclassified</summary>
 
-|Subject|Source|实现|
+|Subject|Source|Solution|
 |---|---|---|
-|`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)||
-|`1118. 一月有多少天`|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)||
+|`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidAnagram.php)|
+|`1118. 一月有多少天`|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfDaysInAMonth.php)|
 
 </details>
 
