@@ -283,7 +283,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)||
+|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FibonacciNumber)|
 
 </details>
 
@@ -292,7 +292,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)||
+|`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MajorityElement)|
 
 </details>
 
@@ -301,7 +301,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0036. 有效的数独`|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)||
+|`0036. 有效的数独`|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidSudoku.php)|
 |`0037. 解数独`|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)||
 |`0039. 组合总和`|[Combination Sum](https://leetcode.com/problems/combination-sum/)||
 |`0040. 组合总和 II`|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)||
@@ -310,7 +310,7 @@ phpunit -vvv
 |`0051. N 皇后`|[N-Queens](https://leetcode.com/problems/n-queens/)||
 |`0052. N 皇后 II`|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)||
 |`0078. 子集`|[Subsets](https://leetcode.com/problems/subsets/)||
-|`0079. 单词搜索`|[Word Search](https://leetcode.com/problems/word-search/)||
+|`0079. 单词搜索`|[Word Search](https://leetcode.com/problems/word-search/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/WordSearch.php)|
 |`0090. 子集 II`|[Subsets II](https://leetcode.com/problems/subsets-ii/)||
 
 </details>
@@ -320,9 +320,9 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0208. 实现 Trie（前缀树）`|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)||
-|`0225. 用队列实现栈`|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)||
-|`0232. 用栈实现队列`|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)||
+|`0208. 实现 Trie（前缀树）`|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ImplementTriePrefixTree.php)|
+|`0225. 用队列实现栈`|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ImplementStackUsingQueues.php)|
+|`0232. 用栈实现队列`|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ImplementQueueUsingStacks.php)|
 
 </details>
 
@@ -331,9 +331,9 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0015. 三数之和`|[3Sum](https://leetcode.com/problems/3sum/)||
-|`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)||
-|`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)||
+|`0015. 三数之和`|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSum.php)|
+|`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSumClosest.php)|
+|`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
 
 </details>
 
@@ -342,10 +342,10 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0003. 无重复字符的最长子串`|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
-|`0076. 最小覆盖子串`|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)||
-|`0438. 找到字符串中所有字母异位词`|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)||
-|`0567. 字符串的排列`|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)||
+|`0003. 无重复字符的最长子串`|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LongestSubstringWithoutRepeatingCharacters.php)|
+|`0076. 最小覆盖子串`|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumWindowSubstring.php)|
+|`0438. 找到字符串中所有字母异位词`|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindAllAnagramsInAString.php)|
+|`0567. 字符串的排列`|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PermutationInString.php)|
 
 </details>
 
@@ -354,9 +354,9 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)||
-|`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)||
-|`0338. 比特位计数`|[Counting Bits](https://leetcode.com/problems/counting-bits/)||
+|`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfOneBits.php)|
+|`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PowerOfTwo.php)|
+|`0338. 比特位计数`|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CountingBits.php)|
 
 </details>
 
