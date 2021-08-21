@@ -30,22 +30,24 @@ class TreeNode
 
     public static function bfsTreeValues(TreeNode $tree): array
     {
-        $result = $queue = [];
-        $queue[] = $tree;
+        $ans = $items = $queue = [];
+        $queue = [$tree];
         while ($queue) {
-            /** @var TreeNode $current */
-            $current = array_pop($queue);
-            $result[] = $current->val;
-            if ($current->right) {
-                $queue[] = $current->right;
-            }
+            /** @var TreeNode $node */
+            $node = array_shift($queue);
+            if ($node instanceof TreeNode) {
+                array_push($ans, $node->val ?: null);
+                if ($node->left) {
+                    array_push($queue, $node->left);
+                }
 
-            if ($current->left) {
-                $queue[] = $current->left;
+                if ($node->right) {
+                    array_push($queue, $node->right);
+                }
             }
         }
 
-        return $result;
+        return $ans;
     }
 
     public static function fromArray(array $array): ?TreeNode
