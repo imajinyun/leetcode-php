@@ -17,6 +17,5 @@ class NumberOfDaysInAMonthTest extends TestCase
         self::assertSame(28, NumberOfDaysInAMonth::numberOfDays(1900, 2));
         self::assertSame(28, NumberOfDaysInAMonth::numberOfDays(2019, 2));
         self::assertSame(29, NumberOfDaysInAMonth::numberOfDays(2020, 2));
-
     }
 }
