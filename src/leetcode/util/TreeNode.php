@@ -30,7 +30,7 @@ class TreeNode
 
     public static function bfsTreeValues(TreeNode $tree): array
     {
-        $ans = $items = $queue = [];
+        $ans = $queue = [];
         $queue = [$tree];
         while ($queue) {
             /** @var TreeNode $node */
