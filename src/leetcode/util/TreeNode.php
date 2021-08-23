@@ -20,6 +20,7 @@ class TreeNode
     public static function dfsTreeValues(TreeNode $tree, array &$list): void
     {
         $list[] = $tree->val;
+
         if ($tree->left) {
             self::dfsTreeValues($tree->left, $list);
         }
@@ -35,15 +36,13 @@ class TreeNode
         while ($queue) {
             /** @var TreeNode $node */
             $node = array_shift($queue);
-            if ($node instanceof TreeNode) {
-                array_push($ans, $node->val ?: null);
-                if ($node->left) {
-                    array_push($queue, $node->left);
-                }
+            array_push($ans, $node->val ?: null);
+            if ($node->left) {
+                array_push($queue, $node->left);
+            }
 
-                if ($node->right) {
-                    array_push($queue, $node->right);
-                }
+            if ($node->right) {
+                array_push($queue, $node->right);
             }
         }
 
