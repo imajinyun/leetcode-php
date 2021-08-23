@@ -201,7 +201,7 @@ phpunit -vvv
 |`0515. 在每个树行中找最大值`|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindLargestValueInEachTreeRow.php)|
 |`0637. 二叉树的层平均值`|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AverageOfLevelsInBinaryTree.php)|
 |`0700. 二叉搜索树中的搜索`|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SearchInABinarySearchTree.php)|
-|`0701. 二叉搜索树中的插入操作`|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
+|`0701. 二叉搜索树中的插入操作`|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/InsertIntoABinarySearchTree.php)|
 |`0993. 二叉树的堂兄弟节点`|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
 
 </details>
