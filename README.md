@@ -58,12 +58,13 @@ phpunit -vvv
 |`0163. 缺失的区间`|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MissingRanges.php)|
 |`0167. 两数之和 II - 输入有序数组`|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)||
 |`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)||
-|`0217. 存在重复元素`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)||
-|`0219. 存在重复元素 II`|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)||
+|`0189. 旋转数组`|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RotateArray.php)|
+|`0217. 存在重复元素`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ContainsDuplicate.php)|
+|`0219. 存在重复元素 II`|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ContainsDuplicateII.php)|
 |`0228. 汇总区间`|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)||
 |`0243. 最短单词距离`|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)||
 |`0268. 丢失的数字`|[Missing Number](https://leetcode.com/problems/missing-number/)||
-|`0283. 移动零`|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)||
+|`0283. 移动零`|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MoveZeroes.php)|
 |`0414. 第三大的数`|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)||
 |`0448. 找到所有数组中消失的数字`|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)||
 |`0485. 最大连续 1 的个数`|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)||
