@@ -135,8 +135,9 @@ phpunit -vvv
 <details>
 <summary>String</summary>
 
-|Subject|Source|
-|---|---|
+|Subject|Source|Solution|
+|---|---|---|
+|`0125. 验证回文串`|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidPalindrome.php)|
 
 </details>
 
