@@ -264,14 +264,14 @@ phpunit -vvv
 |`0062. 不同路径`|[Unique Paths](https://leetcode.com/problems/unique-paths/)||
 |`0063. 不同路径 II`|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)||
 |`0064. 最小路径和`|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)||
-|`0070. 爬楼梯`|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)||
+|`0070. 爬楼梯`|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ClimbingStairs.php)|
 |`0072. 编辑距离`|[Edit Distance](https://leetcode.com/problems/edit-distance/)||
-|`0120. 三角形最小路径和`|[Triangle](https://leetcode.com/problems/triangle/)||
+|`0120. 三角形最小路径和`|[Triangle](https://leetcode.com/problems/triangle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Triangle.php)|
 |`0121. 买卖股票的最佳时机`|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)||
 |`0122. 买卖股票的最佳时机 II`|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)||
 |`0123. 买卖股票的最佳时机 III`|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)||
 |`0128. 最长连续序列`|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)||
-|`0152. 乘积最大子数组`|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)||
+|`0152. 乘积最大子数组`|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MaximumProductSubarray.php)|
 |`0188. 买卖股票的最佳时机 IV`|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)||
 |`0300. 最长上升子序列`|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)||
 |`0322. 零钱兑换`|[Coin Change](https://leetcode.com/problems/coin-change/)||
