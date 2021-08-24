@@ -67,11 +67,11 @@ phpunit -vvv
 |`0283. 移动零`|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MoveZeroes.php)|
 |`0414. 第三大的数`|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)||
 |`0448. 找到所有数组中消失的数字`|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)||
-|`0485. 最大连续 1 的个数`|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)||
-|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)||
-|`0561. 数组拆分 I`|[Array Partition I](https://leetcode.com/problems/array-partition-i/)||
-|`0566. 重塑矩阵`|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)||
-|`0605. 种花问题`|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)||
+|`0485. 最大连续 1 的个数`|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MaxConsecutiveOnes.php)|
+|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FibonacciNumber.php)|
+|`0561. 数组拆分 I`|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ArrayPartitionI.php)|
+|`0566. 重塑矩阵`|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReshapeTheMatrix.php)|
+|`0605. 种花问题`|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CanPlaceFlowers.php)|
 |`0628. 三个数的最大乘积`|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)||
 |`0643. 子数组最大平均数 I`|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)||
 |`0661. 图片平滑器`|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ImageSmoother.php)|
