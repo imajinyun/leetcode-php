@@ -137,6 +137,10 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
+|`0003. 无重复字符的最长子串`|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LongestSubstringWithoutRepeatingCharacters.php)|
+|`0005. 最长回文子串`|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LongestPalindromicSubstring.php)|
+|`0006. Z 字形变换`|[Zigzag Conversion](https://leetcode.com/problems/longest-palindromic-substring/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ZigzagConversion.php)|
+|`0008. 字符串转换整数 (atoi)`|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/StringToInteger.php)|
 |`0125. 验证回文串`|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidPalindrome.php)|
 
 </details>
