@@ -15,16 +15,14 @@ class ListNode
         $this->next = $next;
     }
 
-    public static function toArray(ListNode $node): array
+    public static function toArray(?ListNode $node): array
     {
         if (!$node) {
             return [];
         }
         $ans = [];
         while ($node) {
-            if ($node->val) {
-                $ans[] = $node->val;
-            }
+            array_push($ans, $node->val);
             $node = $node->next;
         }
 
