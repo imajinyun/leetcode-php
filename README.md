@@ -192,6 +192,7 @@ phpunit -vvv
 |Subject|Source|Solution|
 |---|---|---|
 |`0295. 数据流的中位数`|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindMedianFromDataStream.php)|
+|`0378. 有序矩阵中第 K 小的元素`|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthSmallestElementInASortedMatrix.php)|
 |`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthLargestElementInAStream.php)|
 
 </details>
