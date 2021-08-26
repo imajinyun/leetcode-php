@@ -32,4 +32,28 @@ class SlidingWindowMaximumTest extends TestCase
         self::assertSame([11], SlidingWindowMaximum::maxSlidingWindow2([9, 11], 2));
         self::assertSame([4], SlidingWindowMaximum::maxSlidingWindow2([4, -2], 2));
     }
+
+    public function testSlidingWindowMaximum3(): void
+    {
+        self::assertSame(
+            [3, 3, 5, 5, 6, 7],
+            SlidingWindowMaximum::maxSlidingWindow3([1, 3, -1, -3, 5, 3, 6, 7], 3)
+        );
+        self::assertSame([1], SlidingWindowMaximum::maxSlidingWindow3([1], 1));
+        self::assertSame([1, -1], SlidingWindowMaximum::maxSlidingWindow3([1, -1], 1));
+        self::assertSame([11], SlidingWindowMaximum::maxSlidingWindow3([9, 11], 2));
+        self::assertSame([4], SlidingWindowMaximum::maxSlidingWindow3([4, -2], 2));
+    }
+
+    public function testSlidingWindowMaximum4(): void
+    {
+        self::assertSame(
+            [3, 3, 5, 5, 6, 7],
+            SlidingWindowMaximum::maxSlidingWindow4([1, 3, -1, -3, 5, 3, 6, 7], 3)
+        );
+        self::assertSame([1], SlidingWindowMaximum::maxSlidingWindow4([1], 1));
+        self::assertSame([1, -1], SlidingWindowMaximum::maxSlidingWindow4([1, -1], 1));
+        self::assertSame([11], SlidingWindowMaximum::maxSlidingWindow4([9, 11], 2));
+        self::assertSame([4], SlidingWindowMaximum::maxSlidingWindow4([4, -2], 2));
+    }
 }
