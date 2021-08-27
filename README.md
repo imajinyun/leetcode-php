@@ -235,6 +235,7 @@ phpunit -vvv
 |Subject|Source|Solution|
 |---|---|---|
 |`0050. 计算 x 的 n 次幂`|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
+|`0227. 基本计算器 II`|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BasicCalculatorII.php)|
 
 </details>
 
