@@ -234,7 +234,10 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
+|`0013. 罗马数字转整数`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RomanToInteger)|
 |`0050. 计算 x 的 n 次幂`|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
+|`0066. 加一`|[Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PlusOne.php)|
+|`0069. X 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SqrtX.php)|
 |`0227. 基本计算器 II`|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BasicCalculatorII.php)|
 
 </details>
