@@ -266,6 +266,7 @@ phpunit -vvv
 |Subject|Source|Solution|
 |---|---|---|
 |`0069. x 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SqrtX.php)|
+|`0162. 寻找峰值`|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindPeakElement.php)|
 
 </details>
 
