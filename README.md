@@ -148,6 +148,7 @@ phpunit -vvv
 |`0006. Z 字形变换`|[Zigzag Conversion](https://leetcode.com/problems/longest-palindromic-substring/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ZigzagConversion.php)|
 |`0008. 字符串转换整数 (atoi)`|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/StringToInteger.php)|
 |`0125. 验证回文串`|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidPalindrome.php)|
+|`0179. 最大数`|[Largest Number](https://leetcode.com/problems/largest-number/)|[Soluton](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LargestNumber.php)|
 |`0344. 反转字符串`|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseString.php)|
 
 </details>
