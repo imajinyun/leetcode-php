@@ -134,6 +134,7 @@ phpunit -vvv
 |`0001. 两数之和`|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TwoSum.php)|
 |`0136. 只出现一次的数字`|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
 |`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
+|`0454. 四数相加 II`|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSumII.php)|
 
 </details>
 
