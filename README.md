@@ -132,6 +132,8 @@ phpunit -vvv
 |Subject|Source|Solution|
 |---|---|---|
 |`0001. 两数之和`|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TwoSum.php)|
+|`0012. 整数转罗马数字`|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/IntegerToRoman.php)|
+|`0013. 罗马数字转整数`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RomanToInteger.php)|
 |`0136. 只出现一次的数字`|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
 |`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
 |`0454. 四数相加 II`|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSumII.php)|
