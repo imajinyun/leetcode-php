@@ -359,6 +359,7 @@ phpunit -vvv
 |`0015. 三数之和`|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSum.php)|
 |`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSumClosest.php)|
 |`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
+|`0287. 寻找重复数`|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
 
 </details>
 
