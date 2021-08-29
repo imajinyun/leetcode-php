@@ -90,16 +90,16 @@ class ReverseLinkedListII
             return $head;
         }
         if ($left > 1) {
-            $curr = $head;
-            $curr->next = self::reverseBetween4($head->next, $left - 1, $right - 1);
-            return $curr;
+            $node = $head;
+            $node->next = self::reverseBetween4($head->next, $left - 1, $right - 1);
+            return $node;
         } else {
             $next = $head->next;
-            $curr = self::reverseBetween4($next, 1, $right - 1);
+            $node = self::reverseBetween4($next, 1, $right - 1);
             $tail = $next->next;
             $next->next = $head;
             $head->next = $tail;
-            return $curr;
+            return $node;
         }
     }
 
