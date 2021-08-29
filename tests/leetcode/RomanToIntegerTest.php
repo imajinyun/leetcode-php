@@ -17,4 +17,13 @@ class RomanToIntegerTest extends TestCase
         self::assertSame(58, RomanToInteger::romanToInt('LVIII'));
         self::assertSame(1994, RomanToInteger::romanToInt('MCMXCIV'));
     }
+
+    public function testRomanToInteger2(): void
+    {
+        self::assertSame(3, RomanToInteger::romanToInt2('III'));
+        self::assertSame(4, RomanToInteger::romanToInt2('IV'));
+        self::assertSame(9, RomanToInteger::romanToInt2('IX'));
+        self::assertSame(58, RomanToInteger::romanToInt2('LVIII'));
+        self::assertSame(1994, RomanToInteger::romanToInt2('MCMXCIV'));
+    }
 }
