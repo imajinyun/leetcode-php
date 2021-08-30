@@ -31,7 +31,7 @@ class LargestNumber
             return '';
         }
         usort($nums, static function ($a, $b) {
-            return -(($a.$b) <=> ($b.$a));
+            return -(($a . $b) <=> ($b . $a));
         });
         if ((int)$nums[0] === 0) {
             return '0';
@@ -42,6 +42,6 @@ class LargestNumber
 
     private static function compare(int $a, int $b): int
     {
-        return ($a.$b) <=> ($b.$a);
+        return ($a . $b) <=> ($b . $a);
     }
 }
