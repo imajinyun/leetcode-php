@@ -136,7 +136,50 @@ phpunit -vvv
 |`0013. 罗马数字转整数`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RomanToInteger.php)|
 |`0136. 只出现一次的数字`|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
 |`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
+|`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidAnagram.php)|
 |`0454. 四数相加 II`|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSumII.php)|
+
+</details>
+
+<details>
+<summary>Linked List</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0002. 两数相加`|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AddTwoNumbers.php)|
+|`0021. 合并两个有序链表`|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MergeTwoSortedLists.php)|
+|`0024. 两两交换链表中的节点`|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SwapNodesInPairs.php)|
+|`0092. 反转链表 II`|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseLinkedListII.php)|
+|`0206. 反转链表`|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseLinkedList.php)|
+|`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LinkedListCycle.php)|
+
+</details>
+
+<details>
+<summary>Math</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0013. 罗马数字转整数`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RomanToInteger)|
+|`0050. 计算 x 的 n 次幂`|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
+|`0066. 加一`|[Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PlusOne.php)|
+|`0069. X 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SqrtX.php)|
+|`0150. 逆波兰表达式求值`|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/EvaluateReversePolishNotation.php)|
+|`0171. Excel 表列序号`|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ExcelSheetColumnNumber.php)|
+|`0227. 基本计算器 II`|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BasicCalculatorII.php)|
+|`1118. 一月有多少天`|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfDaysInAMonth.php)|
+
+</details>
+
+<details>
+<summary>Two Pointers</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0015. 三数之和`|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSum.php)|
+|`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSumClosest.php)|
+|`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
+|`0287. 寻找重复数`|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
 
 </details>
 
@@ -156,124 +199,21 @@ phpunit -vvv
 </details>
 
 <details>
-<summary>Linked List</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0002. 两数相加`|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AddTwoNumbers.php)|
-|`0021. 合并两个有序链表`|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MergeTwoSortedLists.php)|
-|`0024. 两两交换链表中的节点`|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SwapNodesInPairs.php)|
-|`0092. 反转链表 II`|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseLinkedListII.php)|
-|`0206. 反转链表`|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseLinkedList.php)|
-|`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LinkedListCycle.php)|
-
-</details>
-
-<details>
-<summary>Stack</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0020. 有效的括号`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeInorderTraversal.php)|
-|`0094. 二叉树的中序遍历`|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeInorderTraversal.php)|
-|`0496. 下一个更大元素 I`|[Next Greater Element I](https://leetcode.com/problems/next-greatr-element-i/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NextGreaterElementI.php)|
-|`0503. 下一个更大元素 II`|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-i/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NextGreaterElementII.php)|
-|`0739. 每日温度`|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DailyTemperatures.php)|
-
-</details>
-
-<details>
-<summary>Queue</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0239. 滑动窗口最大值`|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SlidingWindowMaximum.php)|
-
-</details>
-
-<details>
-<summary>Heap</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0295. 数据流的中位数`|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindMedianFromDataStream.php)|
-|`0347. 前 K 个高频元素`|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TopKFrequentElements.php)|
-|`0378. 有序矩阵中第 K 小的元素`|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthSmallestElementInASortedMatrix.php)|
-|`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthLargestElementInAStream.php)|
-
-</details>
-
-<details>
-<summary>Tree</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0020. 括号生成`|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/GenerateParentheses.php)|
-|`0098. 验证二叉搜索树`|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidateBinarySearchTree.php)|
-|`0100. 相同的树`|[Same Tree](https://leetcode.com/problems/same-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
-|`0102. 二叉树的层序遍历`|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeLevelOrderTraversal.php)|
-|`0103. 二叉树的锯齿形层次遍历`|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeZigzagLevelOrderTraversal.php)|
-|`0104. 二叉树的最大深度`|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MaximumDepthOfBinaryTree.php)|
-|`0199. 二叉树的右视图`|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeRightSideView.php)|
-|`0230. 二叉搜索树中第 K 小的元素`|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthSmallestElementInABST.php)|
-|`0235. 二叉搜索树的最近公共祖先`|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LowestCommonAncestorOfABinarySearchTree.php)|
-|`0236. 二叉树的最近公共祖先`|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LowestCommonAncestorOfABinaryTree.php)|
-|`0450. 删除二叉搜索树中的节点`|[Delete Node in a Binary Search Tree](https://leetcode.com/problems/delete-node-in-a-bst/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DeleteNodeInABinarySearchTree.php)|
-|`0515. 在每个树行中找最大值`|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindLargestValueInEachTreeRow.php)|
-|`0637. 二叉树的层平均值`|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AverageOfLevelsInBinaryTree.php)|
-|`0700. 二叉搜索树中的搜索`|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SearchInABinarySearchTree.php)|
-|`0701. 二叉搜索树中的插入操作`|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/InsertIntoABinarySearchTree.php)|
-|`0993. 二叉树的堂兄弟节点`|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CousinsInBinaryTree.php)|
-
-</details>
-
-<details>
-<summary>Graph</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-
-</details>
-
-<details>
-<summary>Math</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0013. 罗马数字转整数`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RomanToInteger)|
-|`0050. 计算 x 的 n 次幂`|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
-|`0066. 加一`|[Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PlusOne.php)|
-|`0069. X 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SqrtX.php)|
-|`0150. 逆波兰表达式求值`|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/EvaluateReversePolishNotation.php)|
-|`0171. Excel 表列序号`|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ExcelSheetColumnNumber.php)|
-|`0227. 基本计算器 II`|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BasicCalculatorII.php)|
-
-</details>
-
-<details>
-<summary>Union Find</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0200. 岛屿数量`|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfIslands.php)|
-
-</details>
-
-<details>
-<summary>Graph</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-
-</details>
-
-<details>
 <summary>Binary Search</summary>
 
 |Subject|Source|Solution|
 |---|---|---|
 |`0069. x 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SqrtX.php)|
 |`0162. 寻找峰值`|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindPeakElement.php)|
+
+</details>
+
+<details>
+<summary>Divide and Conquer</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MajorityElement)|
 
 </details>
 
@@ -307,24 +247,6 @@ phpunit -vvv
 </details>
 
 <details>
-<summary>Recursion</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FibonacciNumber)|
-
-</details>
-
-<details>
-<summary>Divide and Conquer</summary>
-
-|Subject|Source|Solution|
-|---|---|---|
-|`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MajorityElement)|
-
-</details>
-
-<details>
 <summary>Backtracking</summary>
 
 |Subject|Source|Solution|
@@ -344,6 +266,91 @@ phpunit -vvv
 </details>
 
 <details>
+<summary>Stack</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0020. 有效的括号`|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeInorderTraversal.php)|
+|`0094. 二叉树的中序遍历`|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeInorderTraversal.php)|
+|`0496. 下一个更大元素 I`|[Next Greater Element I](https://leetcode.com/problems/next-greatr-element-i/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NextGreaterElementI.php)|
+|`0503. 下一个更大元素 II`|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-i/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NextGreaterElementII.php)|
+|`0739. 每日温度`|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DailyTemperatures.php)|
+
+</details>
+
+<details>
+<summary>Greedy</summary>
+
+</details>
+
+<details>
+<summary>Sort</summary>
+
+</details>
+
+<details>
+<summary>Bit Manipulation</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfOneBits.php)|
+|`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PowerOfTwo.php)|
+|`0338. 比特位计数`|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CountingBits.php)|
+
+</details>
+
+<details>
+<summary>Tree</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0020. 括号生成`|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/GenerateParentheses.php)|
+|`0098. 验证二叉搜索树`|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidateBinarySearchTree.php)|
+|`0100. 相同的树`|[Same Tree](https://leetcode.com/problems/same-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Pow.php)|
+|`0102. 二叉树的层序遍历`|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeLevelOrderTraversal.php)|
+|`0103. 二叉树的锯齿形层次遍历`|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeZigzagLevelOrderTraversal.php)|
+|`0104. 二叉树的最大深度`|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MaximumDepthOfBinaryTree.php)|
+|`0199. 二叉树的右视图`|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeRightSideView.php)|
+|`0230. 二叉搜索树中第 K 小的元素`|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthSmallestElementInABST.php)|
+|`0235. 二叉搜索树的最近公共祖先`|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LowestCommonAncestorOfABinarySearchTree.php)|
+|`0236. 二叉树的最近公共祖先`|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LowestCommonAncestorOfABinaryTree.php)|
+|`0450. 删除二叉搜索树中的节点`|[Delete Node in a Binary Search Tree](https://leetcode.com/problems/delete-node-in-a-bst/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DeleteNodeInABinarySearchTree.php)|
+|`0515. 在每个树行中找最大值`|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindLargestValueInEachTreeRow.php)|
+|`0637. 二叉树的层平均值`|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/AverageOfLevelsInBinaryTree.php)|
+|`0700. 二叉搜索树中的搜索`|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SearchInABinarySearchTree.php)|
+|`0701. 二叉搜索树中的插入操作`|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/InsertIntoABinarySearchTree.php)|
+|`0993. 二叉树的堂兄弟节点`|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CousinsInBinaryTree.php)|
+
+</details>
+
+<details>
+<summary>Depth-First Search</summary>
+
+</details>
+
+<details>
+<summary>Breadth-First Search</summary>
+
+</details>
+
+<details>
+<summary>Union Find</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0200. 岛屿数量`|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfIslands.php)|
+
+</details>
+
+<details>
+<summary>Graph</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
 <summary>Design</summary>
 
 |Subject|Source|Solution|
@@ -355,14 +362,108 @@ phpunit -vvv
 </details>
 
 <details>
-<summary>Two Pointers</summary>
+<summary>Topological Sort</summary>
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0015. 三数之和`|[3Sum](https://leetcode.com/problems/3sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSum.php)|
-|`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSumClosest.php)|
-|`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
-|`0287. 寻找重复数`|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
+
+</details>
+
+<details>
+<summary>Trie</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Binary Indexed Tree</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Segment Tree</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Binary Search Tree</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Recursion</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FibonacciNumber)|
+
+</details>
+
+<details>
+<summary>Brainteaser</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Memoization</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Queue</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0239. 滑动窗口最大值`|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SlidingWindowMaximum.php)|
+
+</details>
+
+<details>
+<summary>Reservoir Sampling</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Ordered Map</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Geometry</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Rejection Sampling</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
 
 </details>
 
@@ -379,23 +480,319 @@ phpunit -vvv
 </details>
 
 <details>
-<summary>Bit Manipulation</summary>
+<summary>Line Sweep</summary>
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfOneBits.php)|
-|`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PowerOfTwo.php)|
-|`0338. 比特位计数`|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CountingBits.php)|
 
 </details>
 
 <details>
-<summary>Unclassified</summary>
+<summary>Rolling Hash</summary>
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidAnagram.php)|
-|`1118. 一月有多少天`|[Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfDaysInAMonth.php)|
+
+</details>
+
+<details>
+<summary>Suffix Array</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Database</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Shell</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Concurrency</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Sorting</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Heap (Priority Queue)</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0295. 数据流的中位数`|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindMedianFromDataStream.php)|
+|`0347. 前 K 个高频元素`|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/TopKFrequentElements.php)|
+|`0378. 有序矩阵中第 K 小的元素`|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthSmallestElementInASortedMatrix.php)|
+|`0703. 数据流中的第 K 大元素`|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthLargestElementInAStream.php)|
+
+</details>
+
+<details>
+<summary>Merge Sort</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>String Matching</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Matrix</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Monotonic Stack</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Simulation</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Combinatorics</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Binary Tree</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+|`0226. 翻转二叉树`|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/InvertBinaryTree.php)|
+
+</details>
+
+<details>
+<summary>Doubly-Linked List</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Interactive</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Bucket Sort</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Radix Sort</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Counting</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Data Stream</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Iterator</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Hash Function</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Enumeration</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Number Theory</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Prefix Sum</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Quickselect</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Ordered Set</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Monotonic Queue</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Counting Sort</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Game Theory</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Eulerian Circuit</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Randomized</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Shortest Path</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Bitmask</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Probability and Statistics</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Minimum Spanning Tree</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Biconnected Component</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
+
+</details>
+
+<details>
+<summary>Strongly Connected Component</summary>
+
+|Subject|Source|Solution|
+|---|---|---|
 
 </details>
 
