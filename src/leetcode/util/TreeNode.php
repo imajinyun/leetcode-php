@@ -17,20 +17,25 @@ class TreeNode
         $this->right = $right;
     }
 
-    public static function dfsTreeValues(TreeNode $tree, array &$list): void
+    public static function dfsTreeValues(?TreeNode $tree, array &$list): void
     {
-        $list[] = $tree->val;
+        if ($tree instanceof TreeNode) {
+            $list[] = $tree->val ?: null;
 
-        if ($tree->left) {
-            self::dfsTreeValues($tree->left, $list);
-        }
-        if ($tree->right) {
-            self::dfsTreeValues($tree->right, $list);
+            if ($tree->left) {
+                self::dfsTreeValues($tree->left, $list);
+            }
+            if ($tree->right) {
+                self::dfsTreeValues($tree->right, $list);
+            }
         }
     }
 
-    public static function bfsTreeValues(TreeNode $tree): array
+    public static function bfsTreeValues(?TreeNode $tree): array
     {
+        if (!$tree) {
+            return [];
+        }
         $ans = $queue = [];
         $queue = [$tree];
         while ($queue) {
