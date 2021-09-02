@@ -138,6 +138,7 @@ phpunit -vvv
 |`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
 |`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidAnagram.php)|
 |`0454. 四数相加 II`|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSumII.php)|
+|`0387. `|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FirstUniqueCharacterInAString.php)|
 
 </details>
 
