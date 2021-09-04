@@ -10,23 +10,31 @@ use PHPUnit\Framework\TestCase;
 
 class MaximumDepthOfBinaryTreeTest extends TestCase
 {
-    private $root;
+    private array $items;
 
     protected function setUp(): void
     {
-        $this->root = new TreeNode(3);
-        $this->root->left = new TreeNode(9);
-        $this->root->right = new TreeNode(20);
-        $this->root->left->left = null;
-        $this->root->left->right = null;
-        $this->root->right->left = new TreeNode(15);
-        $this->root->right->right = new TreeNode(7);
-
         parent::setUp();
+
+        $this->items = [
+            [new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7))), 3],
+            [new TreeNode(1, null, new TreeNode(2)), 2],
+            [null, 0],
+            [new TreeNode(0), 1],
+        ];
     }
 
     public function testMaxDepth(): void
     {
-        self::assertSame(3, MaximumDepthOfBinaryTree::maxDepth($this->root));
+        foreach ($this->items as $item) {
+            self::assertSame($item[1], MaximumDepthOfBinaryTree::maxDepth($item[0]));
+        }
+    }
+
+    public function testMaxDepth2(): void
+    {
+        foreach ($this->items as $item) {
+            self::assertSame($item[1], MaximumDepthOfBinaryTree::maxDepth2($item[0]));
+        }
     }
 }
