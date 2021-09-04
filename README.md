@@ -66,6 +66,7 @@ phpunit -vvv
 |`0268. 丢失的数字`|[Missing Number](https://leetcode.com/problems/missing-number/)||
 |`0283. 移动零`|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MoveZeroes.php)|
 |`0350. 两个数组的交集 II`|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/IntersectionOfTwoArraysII.php)|
+|`0384. 打乱数组`|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ShuffleAnArray.php)|
 |`0414. 第三大的数`|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)||
 |`0448. 找到所有数组中消失的数字`|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)||
 |`0485. 最大连续 1 的个数`|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MaxConsecutiveOnes.php)|
@@ -401,6 +402,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
+|`0278. 第一个错误的版本`|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FirstBadVersion.php)|
 
 </details>
 
@@ -409,7 +411,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FibonacciNumber)|
+|`0509. 斐波那契数`|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FibonacciNumber.php)|
 
 </details>
 
