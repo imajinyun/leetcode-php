@@ -9,7 +9,7 @@ on:
 
 jobs:
   tests:
-    name: Tests
+    name: PHPUnit Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,7 +37,7 @@ jobs:
         run: composer run-script test
 
   sonarcloud:
-    name: SonarCloud
+    name: SonarCloud Analysis
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
