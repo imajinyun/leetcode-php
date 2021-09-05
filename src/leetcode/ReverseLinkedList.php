@@ -8,12 +8,12 @@ use leetcode\util\ListNode;
 
 class ReverseLinkedList
 {
-    public static function reverseList(ListNode $head): ListNode
+    public static function reverseList(?ListNode $head): ?ListNode
     {
-        $node = new ListNode();
         if (!$head) {
-            return $node;
+            return null;
         }
+        $node = null;
         while ($head) {
             $curr = $head;
             $head = $head->next;
@@ -24,7 +24,7 @@ class ReverseLinkedList
         return $node;
     }
 
-    public static function reverseList2(ListNode $head): ListNode
+    public static function reverseList2(?ListNode $head): ?ListNode
     {
         if ($head === null || $head->next === null) {
             return $head;

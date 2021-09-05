@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 class ReverseLinkedListTest extends TestCase
 {
     /** @var \leetcode\util\ListNode */
-    private $node;
+    private ListNode $node;
 
     protected function setUp(): void
     {
@@ -33,21 +33,22 @@ class ReverseLinkedListTest extends TestCase
 
     public function testReverseListIsEmpty(): void
     {
-        $listNode = new ListNode();
-        $node = ReverseLinkedList::reverseList($listNode);
-        self::assertEmpty(ListNode::toArray($node));
+        $node = ReverseLinkedList::reverseList(null);
+        self::assertEmpty($node);
         self::assertSame([], ListNode::toArray($node));
     }
 
     public function testReverseList(): void
     {
-        $actual = ListNode::toArray(ReverseLinkedList::reverseList($this->node));
+        $node = ReverseLinkedList::reverseList($this->node);
+        $actual = ListNode::toArray($node);
         self::assertSame([5, 4, 3, 2, 1], $actual);
     }
 
     public function testReverseList2(): void
     {
-        $actual = ListNode::toArray(ReverseLinkedList::reverseList2($this->node));
+        $node = ReverseLinkedList::reverseList2($this->node);
+        $actual = ListNode::toArray($node);
         self::assertSame([5, 4, 3, 2, 1], $actual);
     }
 }
