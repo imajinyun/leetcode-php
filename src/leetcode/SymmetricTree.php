@@ -18,7 +18,7 @@ class SymmetricTree
         array_push($stack, $root->right);
         while ($stack) {
             [$p, $q] = [array_shift($stack), array_shift($stack)];
-            if (!$p && !$p) {
+            if (!$p && !$q) {
                 continue;
             }
             if (!$p || !$q || $p->val !== $q->val) {
