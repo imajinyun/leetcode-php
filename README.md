@@ -300,6 +300,7 @@ phpunit -vvv
 |`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfOneBits.php)|
 |`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PowerOfTwo.php)|
 |`0338. 比特位计数`|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CountingBits.php)|
+|`0461. 汉明距离`|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HammingDistance.php)|
 
 </details>
 
