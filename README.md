@@ -225,10 +225,10 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
-|`0005. 最长回文子串`|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||
-|`0062. 不同路径`|[Unique Paths](https://leetcode.com/problems/unique-paths/)||
-|`0063. 不同路径 II`|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)||
-|`0064. 最小路径和`|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)||
+|`0005. 最长回文子串`|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LongestPalindromicSubstring.php)|
+|`0062. 不同路径`|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/UniquePaths.php)|
+|`0063. 不同路径 II`|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/UniquePathsII.php)|
+|`0064. 最小路径和`|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumPathSum.php)|
 |`0070. 爬楼梯`|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ClimbingStairs.php)|
 |`0072. 编辑距离`|[Edit Distance](https://leetcode.com/problems/edit-distance/)||
 |`0120. 三角形最小路径和`|[Triangle](https://leetcode.com/problems/triangle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/Triangle.php)|
