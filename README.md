@@ -609,6 +609,7 @@ phpunit -vvv
 |Subject|Source|Solution|
 |---|---|---|
 |`0101. 对称二叉树`|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SymmetricTree.php)|
+|`0124. 二叉树最大路径和`|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinaryTreeMaximumPathSum.php)|
 |`0226. 翻转二叉树`|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/InvertBinaryTree.php)|
 
 </details>
