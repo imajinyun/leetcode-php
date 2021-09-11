@@ -6,16 +6,16 @@ namespace leetcode;
 
 class LongestPalindromicSubstring
 {
-    public static function longestPalindrome(string $str): string
+    public static function longestPalindrome(string $s): string
     {
-        $len = strlen($str);
-        if ($len < 2) {
-            return $str;
+        $n = strlen($s);
+        if ($n < 2) {
+            return $s;
         }
-        $helper = static function (string $str) {
-            $len = strlen($str);
-            for ($i = 0; $i < $len / 2; $i++) {
-                if ($str[$i] !== $str[$len - $i - 1]) {
+        $helper = static function (string $s) {
+            $n = strlen($s);
+            for ($i = 0; $i < $n / 2; $i++) {
+                if ($s[$i] !== $s[$n - $i - 1]) {
                     return false;
                 }
             }
@@ -23,11 +23,11 @@ class LongestPalindromicSubstring
             return true;
         };
         [$ans, $max] = ['', 0];
-        for ($i = 0; $i < $len; $i++) {
-            for ($j = 1; $j <= $len; $j++) {
-                $tmp = substr($str, $i, $j);
+        for ($i = 0; $i < $n; $i++) {
+            for ($j = 1; $j <= $n; $j++) {
+                $tmp = substr($s, $i, $j);
                 if ($helper($tmp) && strlen($tmp) > $max) {
-                    $ans = substr($str, $i, $j);
+                    $ans = substr($s, $i, $j);
                     $max = max($max, strlen($ans));
                 }
             }
@@ -36,43 +36,43 @@ class LongestPalindromicSubstring
         return $ans;
     }
 
-    public static function longestPalindrome2(string $str): string
+    public static function longestPalindrome2(string $s): string
     {
-        $len = strlen($str);
-        if ($len < 2) {
-            return $str;
+        $n = strlen($s);
+        if ($n < 2) {
+            return $s;
         }
 
         $start = $length = 0;
-        $helper = static function (string $str, int $left, int $right, int &$start, int &$length) {
-            while ($left >= 0 && $right < strlen($str) && $str[$left] === $str[$right]) {
-                $left--;
-                $right++;
+        $helper = static function (string $s, int $l, int $r, int &$start, int &$length) {
+            while ($l >= 0 && $r < strlen($s) && $s[$l ] === $s[$r]) {
+                $l--;
+                $r++;
             }
 
-            if ($length < $right - $left - 1) {
-                $start = $left + 1;
-                $length = $right - $left - 1;
+            if ($length < $r - $l - 1) {
+                $start = $l + 1;
+                $length = $r - $l - 1;
             }
         };
-        for ($i = 0; $i < $len; $i++) {
-            $helper($str, $i, $i, $start, $length);
-            $helper($str, $i, $i + 1, $start, $length);
+        for ($i = 0; $i < $n; $i++) {
+            $helper($s, $i, $i, $start, $length);
+            $helper($s, $i, $i + 1, $start, $length);
         }
 
-        return substr($str, $start, $length);
+        return substr($s, $start, $length);
     }
 
-    public static function longestPalindrome3(string $str): string
+    public static function longestPalindrome3(string $s): string
     {
-        $len = strlen($str);
-        if ($len < 2) {
-            return $str;
+        $n = strlen($s);
+        if ($n < 2) {
+            return $s;
         }
-        [$origin, $reverse, $maxLen, $maxEnd] = [$str, strrev($str), 0, 0];
-        $dp = array_fill(0, $len, array_fill(0, $len, 0));
-        for ($i = 0; $i < $len; $i++) {
-            for ($j = 0; $j < $len; $j++) {
+        [$origin, $reverse, $max, $len] = [$s, strrev($s), 0, 0];
+        $dp = array_fill(0, $n, array_fill(0, $n, 0));
+        for ($i = 0; $i < $n; $i++) {
+            for ($j = 0; $j < $n; $j++) {
                 if ($origin[$i] === $reverse[$j]) {
                     if ($i === 0 || $j === 0) {
                         $dp[$i][$j] = 1;
@@ -81,16 +81,16 @@ class LongestPalindromicSubstring
                     }
                 }
 
-                if ($dp[$i][$j] > $maxLen) {
-                    $prev = $len - 1 - $j;
+                if ($dp[$i][$j] > $max) {
+                    $prev = $n - 1 - $j;
                     if ($prev + $dp[$i][$j] - 1 === $i) {
-                        $maxLen = $dp[$i][$j];
-                        $maxEnd = $i;
+                        $max = $dp[$i][$j];
+                        $len= $i;
                     }
                 }
             }
         }
 
-        return substr($str, $maxEnd - $maxLen + 1, $maxLen);
+        return substr($s, $len - $max + 1, $max);
     }
 }
