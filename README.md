@@ -134,7 +134,7 @@ phpunit -vvv
 |`0012. 整数转罗马数字`|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/IntegerToRoman.php)|
 |`0013. 罗马数字转整数`|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RomanToInteger.php)|
 |`0136. 只出现一次的数字`|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
-|`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
+|`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HappyNumber.php)|
 |`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidAnagram.php)|
 |`0454. 四数相加 II`|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSumII.php)|
 |`0387. `|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FirstUniqueCharacterInAString.php)|
@@ -298,6 +298,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
+|`0190. 颠倒二进制位`|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseBits.php)|
 |`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfOneBits.php)|
 |`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PowerOfTwo.php)|
 |`0338. 比特位计数`|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/CountingBits.php)|
