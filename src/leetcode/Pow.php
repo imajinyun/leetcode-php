@@ -13,13 +13,13 @@ class Pow
         }
 
         if ($n < 0) {
-            [$n, $x] = [-$n, 1 / $x];
+            [$x, $n] = [1 / $x, -$n];
         }
 
         if ($n % 2 === 0) {
             $ans = self::myPow($x * $x, $n / 2);
         } else {
-            $ans = $x * self::myPow($x * $x, (int) ($n / 2));
+            $ans = $x * self::myPow($x * $x, intdiv($n, 2));
         }
 
         return $ans;
@@ -28,7 +28,7 @@ class Pow
     public static function myPow2(float $x, int $n): float
     {
         if ($n < 0) {
-            [$n, $x] = [-$n, 1 / $x];
+            [$x, $n] = [1 / $x, -$n];
         }
         $ans = 1;
         while ($n) {
@@ -40,5 +40,18 @@ class Pow
         }
 
         return $ans;
+    }
+
+    public static function myPow3(float $x, int $n): float
+    {
+        if ($n == 0) {
+            return 1;
+        }
+        if ($n < 0) {
+            return 1 / self::myPow3($x, -$n);
+        }
+        $y = self::myPow3($x, (int)($n / 2));
+
+        return $n % 2 === 0 ? $y * $y : $y * $y * $x;
     }
 }

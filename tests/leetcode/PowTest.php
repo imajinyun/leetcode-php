@@ -22,4 +22,11 @@ class PowTest extends TestCase
         self::assertSame(9.26100, Pow::myPow2(2.10000, 3));
         self::assertSame(0.25000, Pow::myPow2(2.00000, -2));
     }
+
+    public function testMyPow3(): void
+    {
+        self::assertSame(1024.00000, Pow::myPow3(2.00000, 10));
+        self::assertSame(9.26100, Pow::myPow3(2.10000, 3));
+        self::assertSame(0.25000, Pow::myPow3(2.00000, -2));
+    }
 }
