@@ -30,16 +30,16 @@ class Pow
         if ($n < 0) {
             [$x, $n] = [1 / $x, -$n];
         }
-        $ans = 1;
+        $y = 1;
         while ($n) {
-            if ($n & 1) {
-                $ans *= $x;
+            if ($n & 1) { // n % 2 === 1
+                $y *= $x;
             }
-            $x *= $x;
-            $n >>= 1;
+            $x *= $x; // x = x ^ 2
+            $n >>= 1; // n /= 2
         }
 
-        return $ans;
+        return $y;
     }
 
     public static function myPow3(float $x, int $n): float
