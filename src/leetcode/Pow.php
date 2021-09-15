@@ -50,7 +50,7 @@ class Pow
         if ($n < 0) {
             return 1 / self::myPow3($x, -$n);
         }
-        $y = self::myPow3($x, (int)($n / 2));
+        $y = self::myPow3($x, intdiv($n, 2));
 
         return $n % 2 === 0 ? $y * $y : $y * $y * $x;
     }
