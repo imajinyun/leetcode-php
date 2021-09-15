@@ -298,6 +298,7 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
+|`0029. 两数相除`|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Solution](ttps://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DivideTwoIntegers.php)|
 |`0190. 颠倒二进制位`|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ReverseBits.php)|
 |`0191. 位 1 的个数`|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/NumberOfOneBits.php)|
 |`0231. 2 的幂`|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PowerOfTwo.php)|
