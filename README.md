@@ -47,7 +47,6 @@ phpunit -vvv
 |`0118. 杨辉三角`|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PascalsTriangle.php)|
 |`0026. 删除有序数组中的重复项`|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RemoveDuplicatesFromSortedArray.php)|
 |`0027. 移除元素`|[Remove Element](https://leetcode.com/problems/remove-element/)||
-|`0035. 搜索插入位置`|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SearchInsertPosition.php)|
 |`0053. 最大子序和`|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)||
 |`0066. 加一`|[Plus One](https://leetcode.com/problems/plus-one/)||
 |`0088. 合并两个有序数组`|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)||
@@ -206,8 +205,10 @@ phpunit -vvv
 
 |Subject|Source|Solution|
 |---|---|---|
+|`0035. 搜索插入位置`|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SearchInsertPosition.php)|
 |`0069. x 的平方根`|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SqrtX.php)|
 |`0162. 寻找峰值`|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindPeakElement.php)|
+|`0367. 有效的完全平方数`|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidPerfectSquare.php)|
 |`0704. 二分查找`|[Binary Search](https://leetcode.com/problems/binary-search/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BinarySearch.php)|
 
 </details>
