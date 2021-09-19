@@ -181,6 +181,7 @@ phpunit -vvv
 |`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSumClosest.php)|
 |`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
 |`0287. 寻找重复数`|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
+|`0844. 比较含退格的字符串`|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BackspaceStringCompare.php)|
 
 </details>
 
