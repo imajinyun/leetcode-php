@@ -156,6 +156,7 @@ phpunit -vvv
 |`0141. 环形链表`|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LinkedListCycle.php)|
 |`0234. 回文链表`|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PalindromeLinkedList.php)|
 |`0237. 删除链表中的节点`|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DeleteNodeInALinkedList.php)|
+|`0707. 设计链表`|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/DesignLinkedList.php)|
 
 </details>
 
