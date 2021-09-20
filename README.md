@@ -47,14 +47,15 @@ phpunit -vvv
 |`0118. 杨辉三角`|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PascalsTriangle.php)|
 |`0026. 删除有序数组中的重复项`|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RemoveDuplicatesFromSortedArray.php)|
 |`0027. 移除元素`|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RemoveElement.php)|
-|`0053. 最大子序和`|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)||
-|`0066. 加一`|[Plus One](https://leetcode.com/problems/plus-one/)||
-|`0088. 合并两个有序数组`|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)||
-|`0118. 杨辉三角`|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)||
-|`0119. 杨辉三角 II`|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)||
+|`0053. 最大子序和`|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MaximumSubarray.php)|
+|`0054. 螺旋矩阵`|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/SpiralMatrix.php)|
+|`0066. 加一`|[Plus One](https://leetcode.com/problems/plus-one/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PlusOne.php)|
+|`0088. 合并两个有序数组`|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MergeSortedArray.php)|
+|`0118. 杨辉三角`|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PascalsTriangle.php)|
+|`0119. 杨辉三角 II`|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/PascalsTriangleII.php)|
 |`0163. 缺失的区间`|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MissingRanges.php)|
 |`0167. 两数之和 II - 输入有序数组`|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)||
-|`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)||
+|`0169. 多数元素`|[Majority Element](https://leetcode.com/problems/majority-element/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MajorityElement.php)|
 |`0189. 旋转数组`|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RotateArray.php)|
 |`0215. 数组中的第 K 个最大元素`|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/KthLargestElementInAnArray.php)|
 |`0217. 存在重复元素`|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ContainsDuplicate.php)|
