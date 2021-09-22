@@ -185,6 +185,7 @@ phpunit -vvv
 |`0016. 最接近的三数之和`|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ThreeSumClosest.php)|
 |`0018. 四数之和`|[4Sum](https://leetcode.com/problems/4sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
 |`0019. 删除链表的倒数第 N 个节点`|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/RemoveNthNodeFromEndOfList.php)|
+|`0142. 环形链表 II`|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/LinkedListCycleII.php)|
 |`0209. 长度最小的子数组`|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/MinimumSizeSubarraySum.php)|
 |`0287. 寻找重复数`|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSum.php)|
 |`0844. 比较含退格的字符串`|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/BackspaceStringCompare.php)|
