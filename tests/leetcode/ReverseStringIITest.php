@@ -14,4 +14,10 @@ class ReverseStringIITest extends TestCase
         self::assertSame('bacdfeg', ReverseStringII::reverseStr('abcdefg', 2));
         self::assertSame('bacd', ReverseStringII::reverseStr('abcd', 2));
     }
+
+    public function testReverseStr2(): void
+    {
+        self::assertSame('bacdfeg', ReverseStringII::reverseStr2('abcdefg', 2));
+        self::assertSame('bacd', ReverseStringII::reverseStr2('abcd', 2));
+    }
 }
