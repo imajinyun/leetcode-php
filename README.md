@@ -137,8 +137,9 @@ phpunit -vvv
 |`0136. 只出现一次的数字`|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FindWinnerOnATicTacToeGame.php)|
 |`0202. 快乐数`|[Happy Number](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/HappyNumber.php)|
 |`0242. 有效的字母异位词`|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/ValidAnagram.php)|
+|`0349. 两个数组的交集`|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/IntersectionOfTwoArrays.php)|
+|`0387. 字符串中的第一个唯一字符`|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FirstUniqueCharacterInAString.php)|
 |`0454. 四数相加 II`|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FourSumII.php)|
-|`0387. `|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Solution](https://github.com/imajinyun/leetcode-php/blob/master/src/leetcode/FirstUniqueCharacterInAString.php)|
 
 </details>
 
