@@ -1,4 +1,4 @@
-# 💫 LeetCode for PHP 🐘
+# 🚀 🐘 🌈 LeetCode with PHP 🔥
 
 [![Build Status](https://travis-ci.com/imajinyun/leetcode-php.svg?branch=master)](https://travis-ci.com/imajinyun/leetcode-php)
 [![Build status](https://ci.appveyor.com/api/projects/status/63m04iayror6ieh2?svg=true)](https://ci.appveyor.com/project/imajinyun/leetcode-php)
@@ -16,22 +16,16 @@
 * PHP >= 8.0
 * PHPUnit >= 9.5
 
-## Installation
+## Usage
 
 Install the package through [Composer](https://getcomposer.org/).
 
 Run the Composer require command from the Terminal:
 
 ```bash
-git clone git@github.com:imajinyun/leetcode-php.git
-cd leetcode-php
-composer install
-```
-
-## Usage
-
-```bash
-phpunit -vvv
+$ git clone git@github.com:imajinyun/leetcode-php.git
+$ cd leetcode-php && composer install 
+$ phpunit -vvv
 ```
 
 ## Contents
